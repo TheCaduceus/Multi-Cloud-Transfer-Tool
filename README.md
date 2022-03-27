@@ -25,8 +25,6 @@
 <h4><b>2.The Project is now updated and everything is optimized for new changes made by Rclone v1.58.0 written in 3rd point.</b></h4>
 <h4><b>3.In Latest Rclone Version v1.58.0, they made some changes in Auto-Config. Don't worry I am aware of that and till that you can either follow the New Steps or if you are making config file for Google Drive then you can provide your CLIENT ID and CLIENT SECRET to Work around that situation! I will update you in my Update Channel ,once I find some alternative to help you out in that Step.</b></h4>
 <h4><b>4.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise login will not work.</b></h4>
-<h2><b>📝 Introduction</b></h2>
-<h4><b>This Project makes it easy and possible to Perform every Rclone Task on Google Colaborately and Store your progress on the cloud and continue it where you left it anytime and anywhere! This Project comes with In-Build support to perform basic task like Creating/Editing/Viewing and Deleteing and also Downloading your Rclone Config file which is needed by almost all Rclone User to perform task! To execute any rclone command you just need to type "!rclone" (After installing Required Setup Files) before any command like "!rclone config" where config is the Command name!</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>Please Connect your Google Account, So that Rclone can easily save its progress automatically.</b></h4>
