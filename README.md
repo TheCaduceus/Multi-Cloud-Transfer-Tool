@@ -22,9 +22,10 @@
 <h4><b>3.Support all Rclone Commands!😎</b></h4>
 <h4><b>4.Store your Rclone progress on Cloud and access it from anywhere!😉</b></h4>
 <h2><b>⛔ NOTICE</b></h2>
-<h4><b>1.The Project is now updated and everything is optimized for new changes made by Rclone v1.58.0 written in 2nd point.</b></h4>
-<h4><b>2.In Latest Rclone Version v1.58.0, they made some changes in Auto-Config. Don't worry I am aware of that and till that you can either follow the New Steps or if you are making config file for Google Drive then you can provide your CLIENT ID and CLIENT SECRET to Work around that situation! I will update you in my Update Channel ,once I find some alternative to help you out in that Step.</b></h4>
-<h4><b>3.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise login will not work.</b></h4>
+<h4><b>1.This Repository is now merged with <a href="https://www.caduceus.ml/Rclone-Setup-on-Google-Colab/">Rclone on Google Colab</a> to make your work more simple!😌</b></h4>
+<h4><b>2.The Project is now updated and everything is optimized for new changes made by Rclone v1.58.0 written in 2nd point.</b></h4>
+<h4><b>3.In Latest Rclone Version v1.58.0, they made some changes in Auto-Config. Don't worry I am aware of that and till that you can either follow the New Steps or if you are making config file for Google Drive then you can provide your CLIENT ID and CLIENT SECRET to Work around that situation! I will update you in my Update Channel ,once I find some alternative to help you out in that Step.</b></h4>
+<h4><b>4.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise login will not work.</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>Please Connect your Google Account, So that Rclone can easily save its progress automatically.</b></h4>
