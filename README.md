@@ -2,7 +2,7 @@
 <p><b>1.Setup and Start using Rclone on Google Colab and Create/Edit/View and delete your Rclone config file and keep them always with you using this! No matters which device you are on! Use Anywhere and Anytime and perform all Rclone task and immediately save it!</b></p>
 <p><b>2.Now I have implemented the Multi Cloud Transfer tool! it means you can easily transfer your all account data to any Cloud service which you like! And since it will work on Google Server, So it will be lightning fast⚡and will not consume your Internet or System Resources.😉</p></b>
 <h2><b>🆕What's New!🆕</b></h2>
-<p><b><i>v2.2.5 (Multi Cloud Transfer Integration)</i><b></p>
+<p><b><i>v2.2.5 (Multi Cloud Transfer Integration)</i></b></p>
 <h4><b>1.Multi Cloud Transfer Tool Added!⚡</b></h4>
 <h4><b>2.Auto Reconnecter is Added in support of large transfer.😙</b></h4>
 <h4><b>3.Added New Sections and updated the guide.😌</b></h4>
