@@ -6,10 +6,10 @@
 <h4><b>1.Multi Cloud Transfer Tool Added!⚡</b></h4>
 <h4><b>2.Auto Reconnecter is Added in support of large transfer.😙</b></h4>
 <h4><b>3.Added New Sections and updated the guide.😌</b></h4>
-<h4><b><i>4.Service Accounts Randomizer (In Beta)</i><b></h4>
+<h4><b><i>4.Service Accounts Randomizer (In Beta)</i></b></h4>
 <h4><b>5.Config will now move to My Drive at place of frustrating you by downloading in your Device.</b></h4>
 <p><b><i>v2.2.4 (R-1.58.0)</i><b></p>
-<h4><b>1.Project upgraded & optimized for Rclone 1.58.0 ☺️</b></h4>
+<h4><b>1.Project upgraded & optimized for Rclone 1.58.0 🙃</b></h4>
 <h4><b>2.Multi Cloud Transfer Tool (in Beta)</b></h4>
 <h4><b>3.Guide Updated and Steps are added for new auto-config authorization.</b></h4>
 <p><b><i>v2.2.3 (Migrating to 1.58.O Beta)</i><b></p>
