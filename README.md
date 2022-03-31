@@ -90,7 +90,7 @@
 <h4><b>16.Finally! After above steps, it will show you the final code of rclone config file, you can copy paste it in any Text Editor and after that type 'y' and hit Enter to confirm and then type 'q' tp quite the configuration of file.</b></h4>
 <img src="Img/15.png" alt="15">
 <img src="Img/16.png" alt="16">
-<h4><b>17.After Typing q and hitting Enter! The Download of rclone config file will automatically starts and save it in your Device.</b></h4>
+<h4><b>17.You can execute or run any Rclone command in this project! Just click on the Drop-down arrow of "Advanced Task" and that sit! Enjoy</b></h4>
 <img src="Img/17.png" alt="17">
 <h4><b>18.You can execute or run any Rclone command in this project! Just click on the Drop-down arrow of "Advanced Task" and that sit! Enjoy</b></h4>
 <img src="Img/18.png" alt="18">
