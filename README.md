@@ -1,8 +1,12 @@
 # Multi Cloud Transfer (Advanced!) 🔥
 <p><b>1.Setup and Start using Rclone on Google Colab and Create/Edit/View and delete your Rclone config file and keep them always with you using this! No matters which device you are on! Use Anywhere and Anytime and perform all Rclone task and immediately save it!</b></p>
-<p><b>2.Now I have implemented the Multi Cloud Transfer tool! it means you can easily transfer your all account data to any Cloud service which you like! And since it will work on Google Server, So it will be lightning fast⚡and will not consume your Internet or System Resources.😉</b></p>
+<p><b>2.Now I have implemented the Multi Cloud Transfer tool! it means you can easily transfer your all account data to any Cloud service which you like! And since it will work on Google Server, So it will be lightning fast⚡and will not consume your Internet or System Resources.😉</p></b>
 <h2><b>🆕What's New!🆕</b></h2>
-<p><b><i>v2.2.5 (Multi Cloud Transfer Integration)</i></b></p>
+<p><b><i>v2.2.6 (More Transfer Methods and Purge options!)</i></b></p>
+<h4><b>1.Added more Transfer modes as rclone.🚅</b></h4>
+<h4><b>2.Now delete or purge your data.🗑️</b></h4>
+<h4><b>3.Fixed duplicates rclone.conf Errors.</b></h4>
+<p><b><i>v2.2.5 (Multi Cloud Transfer Integration)</i><b></p>
 <h4><b>1.Multi Cloud Transfer Tool Added!⚡</b></h4>
 <h4><b>2.Auto Reconnecter is Added in support of large transfer.😙</b></h4>
 <h4><b>3.Added New Sections and updated the guide.😌</b></h4>
@@ -12,7 +16,7 @@
 <h4><b>1.Project upgraded & optimized for Rclone 1.58.0 🙃</b></h4>
 <h4><b>2.Multi Cloud Transfer Tool (in Beta)</b></h4>
 <h4><b>3.Guide Updated and Steps are added for new auto-config authorization.</b></h4>
-<p><b><i>v2.2.3 (Migrating to 1.58.O Beta)</i><b></p>
+<p><b><i>v2.2.3 (Migrating to 1.58.O Beta)</i></b></p>
 <h4><b>1.Rclone will now auto-fetch the saved progress including Rclone config file (If Any) from your Google Drive (My Drive).🔥</b></h4>
 <h4><b>2.Now you can use your own Rclone Config File! Just upload it to your My Drive and fetch it</b>🙃</h4>
 <h4><b>3.File will be shifted to Google Drive at place of starting download to your Device!</b></h4>
@@ -22,10 +26,11 @@
 <h4><b>3.Support all Rclone Commands!😎</b></h4>
 <h4><b>4.Store your Rclone progress on Cloud and access it from anywhere!😉</b></h4>
 <h2><b>⛔ NOTICE</b></h2>
-<h4><b>1.This Repository is now merged with <a href="https://www.caduceus.ml/Rclone-Setup-on-Google-Colab/">Rclone on Google Colab</a> to make your work more simple!😌</b></h4>
-<h4><b>2.The Project is now updated and everything is optimized for new changes made by Rclone v1.58.0 written in 2nd point.</b></h4>
-<h4><b>3.In Latest Rclone Version v1.58.0, they made some changes in Auto-Config. Don't worry I am aware of that and till that you can either follow the New Steps or if you are making config file for Google Drive then you can provide your CLIENT ID and CLIENT SECRET to Work around that situation! I will update you in my Update Channel ,once I find some alternative to help you out in that Step.</b></h4>
-<h4><b>4.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise login will not work.</b></h4>
+<h4><b>1.The Project is now updated and everything is optimized for new changes made by Rclone v1.58.0 written in 2nd point.</b></h4>
+<h4><b>2.In Latest Rclone Version v1.58.0, they made some changes in Auto-Config. Don't worry I am aware of that and till that you can either follow the New Steps or if you are making config file for Google Drive then you can provide your CLIENT ID and CLIENT SECRET to Work around that situation! I will update you in my Update Channel ,once I find some alternative to help you out in that Step.</b></h4>
+<h4><b>3.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise login will not work.</b></h4>
+<h2><b>📝 Introduction</b></h2>
+<h4><b>This Project makes it easy and possible to Perform every Rclone Task on Google Colaborately and Store your progress on the cloud and continue it where you left it anytime and anywhere! This Project comes with In-Build support to perform basic task like Creating/Editing/Viewing and Deleteing and also Downloading your Rclone Config file which is needed by almost all Rclone User to perform task! To execute any rclone command you just need to type "!rclone" (After installing Required Setup Files) before any command like "!rclone config" where config is the Command name!</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>Please Connect your Google Account, So that Rclone can easily save its progress automatically.</b></h4>
@@ -109,7 +114,7 @@
 <img src="Img/27.png">
 <h4><b>5.After that! Paste the path of file or folder in "Source" field and again go to File Icon-->drives and open the Cloud Account into which you want to transfer files/folders and copy its path! You can either directly copy the path of Cloud Account or of any folder inside it and paste the path in "destination" field.</b></h4>
 <img src="Img/28.png">
-<h4><b>6.Choose the mode to "Copy" otherwise you can use other like "Check". And you can also Enter some extra arguments/flags (optional). Refer to Flag section to see all available flags all arguments!</b></h4>
+<h4><b>6.Choose the Transfer mode trough which you want to transfer your Data! Please refer to "<a href="#modes-of-transfer">🚅Modes of Transfer</a>" below to learn about all of them.</b></h4>
 <h4><b>7.If you want to get notified! when your transfer got completed then tick the Email_notification option and provide Gmail Email ID as well as its password and the Receiver Email ID on which you want to receive the notification!  (optional)</b></h4>
 <p><b>
   Email_notification: Select this option to enable following options.<br>
@@ -121,9 +126,21 @@
 <img src="Img/29.png">
 <h4><b>8.Dry Run option is just to check the Source as well as destination path without copying anything.(Optional)</b></h4>
 <h4><b>9.Finally! Run the code by pressing Play button to start transferring. Enjoy!🙃</b></h4>
-<h2><b>🎌Flags</b></h2>
-<h4><b>You can use Arguments to control the behavior or customize the command as per your need! Here is the list of all flags:</b></h4>
-<h5><b><a href="https://rclone.org/flags/" alt="Global Flag Page">Show Flags</a></b></h5>
+<h2><b>🚅Modes of Transfer</b></h2>
+<h4><b>As this project use Rclone as a base! and Rclone support multiple flags to help you move or clean your Data, So I have those flags in this Project are known as Modes. Here is the list of the Modes that this Project supports:</b></h4>
+  <h4><b>1.Copy: Copy files from source to dest, skipping identical files.</b></h4>
+  <h4><b>2.Copyto: This can be used to upload single files to other than their current name.</b></h4>
+  <h4><b>3.CopyURL: Download a URL's content and copy it to the destination without saving it in temporary storage.</b></h4>
+  <h4><b>4.Move: Moves the contents of the source directory to the destination directory.</b></h4>
+  <h4><b>5.Moveto: If source:path is a file or directory then it moves it to a file or directory named dest:path.</b></h4>
+  <h4><b>6.Check: Checks the files in the source and destination match. It compares sizes and hashes (MD5 or SHA1) and logs a report of files that don't match. It doesn't alter the source or destination.</b></h4>
+  <h4><b>7.Sync: Sync the source to the destination, changing the destination only. Doesn't transfer files that are identical on source and destination, testing by size and modification time or MD5SUM. Destination is updated to match source, including deleting files if necessary (except duplicate objects, see below).</b></h4>
+  <h4><b>8.Bisync: Bisync provides a bidirectional cloud sync solution in rclone. It retains the Path1 and Path2 filesystem listings from the prior run. On each successive run it will:</b></h4>
+  <h4><b>9.Cat: Rclone cat sends any files to standard output.</b></h4>
+  <h4><b>10.CleanUp: Clean up the remote if possible. Empty the trash or delete old file versions. Not supported by all remotes.</b></h4>
+  <p><b>Following Modes can easily cause Data Loss:</b></p>
+  <h4><b>11.Delete: Remove the files in path.</b></h4>
+  <h4><b>12.Purge: Will delete whole Directory and leaving nothing behind.</b></h4>
 <h2><b>🎯Points to be Remembered</b></h2>
 <h4><b>1.Always choose No (n) for Auto-Config because we are not going to use Rclone on our Local Device/Machine otherwise login will not work!</b></h4>
 <h4><b>2.Don't forget to type '!' before executing any custom Rclone Command.</b></h4>
@@ -142,3 +159,4 @@
 <h2>❤️Credits & Thanks</h2>
 <p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
 <p><b><a href="https://rclone.org/">Rclone</a>: The Backbone of this Powerful Project.</b></p>
+
