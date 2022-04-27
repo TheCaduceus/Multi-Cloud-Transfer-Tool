@@ -56,9 +56,14 @@
 <p><b>1.Setup and Start using Rclone on Google Colab and Create/Edit/View and delete your Rclone config file and keep them always with you using this! No matters which device you are on! Use Anywhere and Anytime and perform all Rclone task and immediately save it!</b></p>
 <p><b>2.Now I have implemented the Multi Cloud Transfer tool! it means you can easily transfer your all account data to any Cloud service which you like! And since it will work on Google Server, So it will be lightning fast⚡and will not consume your Internet or System Resources.😉</p></b>
 <h2><b>🆕What's New!🆕</b></h2>
+<p><b><i>v2.2.7 (Service Accounts support and warning time.</i></b></p>
+<h4><b>1.Added Service Accounts support.🪀</b></h4>
+<h4><b>2.Warning time added in Delete section to prevent accidental data loss.⚠️</b></h4>
+<h4><b>3.More Purge options are added!🧼</b></h4>
+<h4><b>4.New Transfer Modes are added!🔮</b></h4>
 <p><b><i>v2.2.6 (More Transfer Methods and Purge options!)</i></b></p>
-<h4><b>1.Added more Transfer modes as rclone.</b></h4>
-<h4><b>2.Now delete or purge your data.</b></h4>
+<h4><b>1.Added more Transfer modes as rclone.🚅</b></h4>
+<h4><b>2.Now delete or purge your data.🗑️</b></h4>
 <h4><b>3.Fixed duplicates rclone.conf Errors.</b></h4>
 <p><b><i>v2.2.5 (Multi Cloud Transfer Integration)</i><b></p>
 <h4><b>1.Multi Cloud Transfer Tool Added!⚡</b></h4>
@@ -180,6 +185,16 @@
 <img src="Img/29.png">
 <h4><b>8.Dry Run option is just to check the Source as well as destination path without copying anything.(Optional)</b></h4>
 <h4><b>9.Finally! Run the code by pressing Play button to start transferring. Enjoy!🙃</b></h4>
+<h2><b>🪀Using Service Accounts</b></h4>
+<h4><b>The service accounts can be used to bypass the 750Gb/day upload limit set by google in Google Drive. It means that you can use them to upload more than 750Gb per day, duplicate hundreds of files...Each service account has a 750Gb upload limit per day. You can create up to 100 service account per google cloud project. So, with only one project you can upload/duplicate up to 75Tb a day!</b></h4>
+  <h4><b>1.Don't have Service Accounts?<a href="https://telegra.ph/How-to-create-and-use-service-accounts-sa-03-31" alt="Creating SA"> Create Here</a></b></h4>
+  <h4><b>2.After creating! make the zip of "accounts" folder which have 100 Json files and keep its name as "accounts.zip".</b></h4>
+  <h4><b>3.Now back to Google Colab screen and run the code as shown in the Image and click "Choose file" and select the zip file you just created!</b></h4>
+  <img src="Img/31.png">
+  <h4><b>4.After at! Click the file icon, then open "accounts" folder and right click on anyone json file and select "Copy path".</b></h4>
+  <img src="Img/32.png">
+  <h4><b>5.Run the "Create/Edit/Delete Rclone Config File" and paste the path in "service_account_file" during createing remote for Google Drive.</b></h4>
+  <img src="Img/33.png">
 <h2><b>🚅Modes of Transfer</b></h2>
 <h4><b>As this project use Rclone as a base! and Rclone support multiple flags to help you move or clean your Data, So I have those flags in this Project are known as Modes. Here is the list of the Modes that this Project supports:</b></h4>
   <h4><b>1.Copy: Copy files from source to dest, skipping identical files.</b></h4>
@@ -192,9 +207,20 @@
   <h4><b>8.Bisync: Bisync provides a bidirectional cloud sync solution in rclone. It retains the Path1 and Path2 filesystem listings from the prior run. On each successive run it will:</b></h4>
   <h4><b>9.Cat: Rclone cat sends any files to standard output.</b></h4>
   <h4><b>10.CleanUp: Clean up the remote if possible. Empty the trash or delete old file versions. Not supported by all remotes.</b></h4>
+  <h4><b>11.ls: List all the objects in the path with size and path.</b></h4>
+  <h4><b>12.lsd: List all directories/containers/buckets in the path.</b></h4>
+  <h4><b>13.lsl: List all the objects in the path with size, modification time and path.</b></h4>
+  <h4><b>14.md5sum: Produce an md5sum file for all the objects in the path.</b></h4>
+  <h4><b>15.sha1sum: Produce a sha1sum file for all the objects in the path.</b></h4>
+  <h4><b>16.size: Return the total size and number of objects in path.</b></h4>
+  <h4><b>17.genautocomplete: Output shell completion scripts for rclone.</b></h4>
+  <h4><b>18.gendocs: Output markdown docs for rclone to the directory supplied.</b></h4>
+  <h4><b>19.obscure: Obscure password for use in the rclone.conf.</b></h4>
   <p><b>Following Modes can easily cause Data Loss:</b></p>
-  <h4><b>11.Delete: Remove the files in path.</b></h4>
-  <h4><b>12.Purge: Will delete whole Directory and leaving nothing behind.</b></h4>
+  <h4><b>1.Delete: Remove the files in path.</b></h4>
+  <h4><b>2.Purge: Will delete whole Directory and leaving nothing behind.</b></h4>
+  <h4><b>3.rmdir: Completely Delete the given path.</b></h4>
+  <h4><b>4.rmdirs: Remove any empty directories under the path.</b></h4>
 <h2><b>🎯Points to be Remembered</b></h2>
 <h4><b>1.Always choose No (n) for Auto-Config because we are not going to use Rclone on our Local Device/Machine otherwise login will not work!</b></h4>
 <h4><b>2.Don't forget to type '!' before executing any custom Rclone Command.</b></h4>
