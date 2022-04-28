@@ -175,13 +175,17 @@
 <h4><b>5.You can either choose the path of Cloud Account folder or anyother folder inside it</b></h4>
 <h2><b>Supported Command List</b></h2>
 <h4><b><a href="https://github.com/TheCaduceus/Rclone-Setup-on-Google-Colab/blob/main/Cmds.md">Show List</a></b></h4>
-<h2> 🔐 Safe or Not? ✅</h2>
-<h4><b> 1.Don't Worry! No data will be shared with anyone, if you use the <a href="https://github.com/TheCaduceus/Rclone-Setup-on-Google-Colab">Original code</a>.🔒</b></h4>
+<h2><b>🤔Why use this?</b></h4>
+<h4><b>1.Rclone is really a very powerful command line tool! but some users are really not comfortable with Command line and hence it become defficult to use this type of useful tools, So this Project provides a very interactive User Interface (UI) to operate it with less inputs.</b></h4>
+<h4><b>2.Rclone creates "rclone.conf"  file, which is the most important thing to make rclone useful. But when you change your device, then you have to create a new rclone.conf file. But this Project saves your rclone.conf file to Google Drive and you can use the same file repeatedly, what you just need is your Google Account and nothing.</b></h4>
+<h4><b>3.Heavy flexibility: You can use this project anytime & anywhere because it is totally cloud based, that means if you are moving files in your PC and want to check its progress in your phone then you just have to login on Google Colab in your Phone.</b></h4>
+<h2><b>🔐 Safe or Not? ✅</b></h2>
+<h4><b> 1.Don't Worry! No data will be shared with anyone, if you use the <a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool">Original code</a>.🔒</b></h4>
 <h4><b> 2.This code do not share even a single piece of data to any third party source and not create any log of that!🔑</b></h4>
 <h4><b> 3.Do not trust any other copy of this Code.📚</b></h4>
-<h2>⛑Contact Us!</h2>
+<h2><b>⛑Contact Us!</b></h2>
 <h4><b>Join our Update Channel at Telegram:<a href="https://telegram.me/TheCaduceusUPDATE"> Join Now!</a></b></h4>
 <h4><b>Directly Contact the Developer using Telegram <a href="https://telegram.me/HelpAutomatted_Bot">@HelpAutomatted_Bot</a></b></h4>
-<h2>❤️Credits & Thanks</h2>
+<h2><b>❤️Credits & Thanks</b></h2>
 <p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
 <p><b><a href="https://rclone.org/">Rclone</a>: The Backbone of this Powerful Project.</b></p>
