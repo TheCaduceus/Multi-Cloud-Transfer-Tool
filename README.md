@@ -142,7 +142,7 @@
   <h4><b>5.Run the "Create/Edit/Delete Rclone Config File" and paste the path in "service_account_file" during createing remote for Google Drive.</b></h4>
   <img src="Img/33.png">
 <h2><b>🚅Modes of Transfer</b></h2>
-<h4><b>As this project use Rclone as a base! and Rclone support multiple flags to help you move or clean your Data, So I have those flags in this Project are known as Modes. Here is the list of the Modes that this Project supports:</b></h4>
+<h4><b>As this project use Rclone as a base! and Rclone support multiple flags to help you move or clean your Data, in this Project flags are known as Modes. Here is the list of the Modes that this Project supports:</b></h4>
   <h4><b>1.Copy: Copy files from source to dest, skipping identical files.</b></h4>
   <h4><b>2.Copyto: This can be used to upload single files to other than their current name.</b></h4>
   <h4><b>3.CopyURL: Download a URL's content and copy it to the destination without saving it in temporary storage.</b></h4>
