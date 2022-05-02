@@ -42,7 +42,7 @@
 <h4><b>You can easily use the Service Accounts (if you want to) using the given code, Please read "Using Service Accounts" Section to learn how to.</b></h4>
 <img src="Img/31.png" alt="Using SA">
 <h4><b>You can easily delete your Files/Folder/Directory from the given code</b></h4>
-<img src="35.png" alt="Purge Options">
+<img src="Img/35.png" alt="Purge Options">
 <h4><b>This Project gives you the ability to pack or extract files or folders between any cloud with large verity of format support.</b></h4>
 <img src="Img/36.png" alt="Packing & Extraction">
 <h4><b></b></h4>
