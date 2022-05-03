@@ -180,6 +180,7 @@
   <h4><b>17.genautocomplete: Output shell completion scripts for rclone.</b></h4>
   <h4><b>18.gendocs: Output markdown docs for rclone to the directory supplied.</b></h4>
   <h4><b>19.obscure: Obscure password for use in the rclone.conf.</b></h4>
+  <p><b>20.tree: List the contents of the remote in a tree like fashion.</b></p>
   <p><b>Following Modes can easily cause Data Loss:</b></p>
   <h4><b>1.Delete: Remove the files in path.</b></h4>
   <h4><b>2.Purge: Will delete whole Directory and leaving nothing behind.</b></h4>
