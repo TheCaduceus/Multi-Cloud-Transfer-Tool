@@ -56,7 +56,17 @@
 <p><b>1.Setup and Start using Rclone on Google Colab and Create/Edit/View and delete your Rclone config file and keep them always with you using this! No matters which device you are on! Use Anywhere and Anytime and perform all Rclone task and immediately save it!</b></p>
 <p><b>2.Now I have implemented the Multi Cloud Transfer tool! it means you can easily transfer your all account data to any Cloud service which you like! And since it will work on Google Server, So it will be lightning fast⚡and will not consume your Internet or System Resources.😉</p></b>
 <h4><b>3.This Project comes with the ability to pack or extract of Files or Folder in varity of formats with or without Password Protection while moving the data from One Cloud to another Cloud.</b></h4>
+<h4><b>4.It comes with various amazing Add-ons which will make your task or work more simple. It combines the power of Rclone with other engines which make a combination that can do your work by taking less efforts and giving more output.</b></h4>
 <h2><b>🆕What's New!🆕</b></h2>
+<p><b><i>v3.0.5 (Amazing Add-ons, Direct Download links, Torrents and bug fixes!)
+  <h4><b>1.Now download direct download links with various bulk download options to any cloud!😎</b></h4>
+  <h4><b>2.Added YouTube Videos/Playlist download including various site support using yt-dlp!😘</b></h4>
+  <h4><b>3.Multiple Torrent download support using Magnet link or torrent file directly to any cloud.</b></h4>
+  <h4><b>4.Fixed wrong token error in Source & Destination path.</b></h4>
+  <h4><b>5.Addressed bug not allowing custom name while packing data.</b></h4>
+  <h4><b>6.Now bypass and mirror GDTOT links directly.</b></h4>
+  <h4><b>7.Packer & Extractor is now in STABLE.</b></h4>
+  <h4><b>8.Now run aria2 and yt-dlp commands in Colab</b></h4>
 <p><b><i>v2.2.8 (More Customizations & Packing and Extraction Support)</i></b></p>
 <h4><b>1.Saving Customization for Rclone Configuration.😉</b></h4>
 <h4><b>2.Packing & Extracting Files/Folder between Cloud Transfer.😆</b></h4>
@@ -73,12 +83,6 @@
 <h4><b>1.Added more Transfer modes as rclone.🚅</b></h4>
 <h4><b>2.Now delete or purge your data.🗑️</b></h4>
 <h4><b>3.Fixed duplicates rclone.conf Errors.</b></h4>
-<p><b><i>v2.2.5 (Multi Cloud Transfer Integration)</i><b></p>
-<h4><b>1.Multi Cloud Transfer Tool Added!⚡</b></h4>
-<h4><b>2.Auto Reconnecter is Added in support of large transfer.😙</b></h4>
-<h4><b>3.Added New Sections and updated the guide.😌</b></h4>
-<h4><b><i>4.Service Accounts Randomizer (In Beta)</i></b></h4>
-<h4><b>5.Config will now move to My Drive at place of frustrating you by downloading in your Device.</b></h4>
 <p><b><a href="https://github.com/TheCaduceus/Rclone-Setup-on-Google-Colab/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
 <h4><b>1.The Project is now updated and everything is optimized for new changes made by Rclone v1.58.0 written in 2nd point.</b></h4>
@@ -204,6 +208,41 @@
   <img src="Img/32.png">
   <h4><b>5.Run the "Create/Edit/Delete Rclone Config File" and paste the path in "service_account_file" during createing remote for Google Drive.</b></h4>
   <img src="Img/33.png">
+  <h2><b>🪄Special Add-ons</b></h2>
+  <h4><b>This project comes with various amazing Add-ons which will make your task or work more simple. It combines the power of Rclone with other engines which make a combination that can do your work by taking less efforts and giving more output.</b></h4>
+  <img src="https://user-images.githubusercontent.com/87380104/169764820-a9678d13-4708-4232-9c65-2cfb682f4bec.png">
+
+  <h3><b>Direct Download Links:</b></h3>
+  <h4><b>This feature enables you to download files or data from any direct download to any cloud. It uses Aria engine to deliver to best and fastest performance possible. You can also download two or more links at same time with this.</b></h4>
+  <h4><b>Just put your direct download links in Source field and then enter the Destination path to where you want to download data. You can enter multiple Direct Download links in the source field by seperating them using space between each link in the following format: </b></h4>
+    <p><b>Link1 Link2</b></p>
+  <h3><b>Download Links from txt file:</b></h3>
+  <h4><b>Download Links from txt file feature enables you download all links written in a txt file. This feature is useful when you have too many links and it will take too much time seperate each link with space.</b></h4>
+  <h4><b>You just have to upload the txt file contaning the download links to any cloud which you connected then have to provide its path in Source field and Destination path in Destination field to where you want to download the data. I will recommend to arrange the links in txt files in the below given format: </b></h4>
+  <p><b>Link1<br>
+    Link2<br>
+    Link3
+    </b></p>
+  <h3><b>YouTube videos/playlist</b></h3>
+  <h4><b>This feature gives you the flexibility to download YouTube Videos or Playlist and videos from other supported sites directly to any Cloud. It uses yt-dlp which downloads everything is maximum quality. You can download two or more videos which are not in same playlist or even two seperate playlist at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt"yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
+  <h4><b>Just provide the YouTube link of video or playlist or link to videos located on other website (Non-DRM Protected) in Source field and Destination path in Destination field to where you want to download it. You can seperate the link of videos or playlist by providing space between each in following format:</b></h4>
+  <p><b>Video Link1 Video Link2</b></p>
+  <p></p>
+  <p><b>Playlist Link1 Playlist Link2</b></p>
+  <p></p>
+  <p><b>Video Link1 Playlist Link1</b></p>
+  <h3><b>Magnet Links:</b></h3>
+  <h4><b>Magnet Links feature allow you to download torrent using magnet link directly into any cloud with high speed. It uses LibTorrent which is a lightweight powerful BitTorrent client. You can download multiple magnet links at once, you don't have to write magnet link in Source Field.</b></h4>
+  <h4><b>Just provide the Destination path in Destination field where you have to download the torrent and run the code. You don't have to put magnet link in Source field because when you run the code then you will see input box where you have to put magnet link, you can provide as many magnet link as you can but only 1 magnet link per input box and hit enter! once you done adding magnet links, just type Exit and it will start downloading it.</b></h4>
+  <img src="https://user-images.githubusercontent.com/87380104/169769919-fcc52d17-3b1c-4bb7-ba28-c29960d00b56.png">
+  <h3><b>Torrent Files:</b></h3>
+  <h4><b>This feature gives you ability to download torrent from .torrent files, you can provide as many torrent files as much you want. It also uses LibTorrent to deliver fast download speed.</b></h4>
+  <h4><b>You have to provide destination path to where you want to download torrent data and torrent file through "Choose file" option. Once you provided torrent file you want to download then click "Cancel Upload" then it will start downloading torrent for you.</b></h4>
+  <img src="https://user-images.githubusercontent.com/87380104/169771367-677c9dad-fcfe-41f9-b77c-476e77c23f69.png">
+  <h3><b>Mirror GDTOT Links</b></h3>
+  <h4><b>This feature automatically bypass and clone the GDTOT Links directly into your Google Drive's My Drive, So that you can easily move the file any cloud. You just have to provide your "crypt" cookie of GDTOT to use this feature.</b></h4>
+  <h4><b>To get Crypt cookie of your GDTOT account, just login on GDTOT and then open Developer tools->Applications. Then you have to provide GDTOT link in Source field and leave destination path empty.</b></h4>
+  <img src="https://user-images.githubusercontent.com/87380104/169774919-0afe83b6-f4b8-4f7b-8674-2b2caf91ddad.png">
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
   <h4><b>This Project comes with the ability to pack or extract of Files or Folder in varity of formats with or without Password Protection while moving the data from One Cloud to another Cloud. What you need is just Source Path which needs to be packed or extracted and Destination Path where you need the final result, so lets learn how to use this feature.😆</b></h4>
   <h4><b>1.First connect the Cloud Accounts between which you need to transfer the packed or extracted data. Please read STEP 2 of "🪝Multi Cloud Transfer" section to learn how to do that!</b></h4>
@@ -236,7 +275,7 @@
   <h4><b>17.genautocomplete: Output shell completion scripts for rclone.</b></h4>
   <h4><b>18.gendocs: Output markdown docs for rclone to the directory supplied.</b></h4>
   <h4><b>19.obscure: Obscure password for use in the rclone.conf.</b></h4>
-  <h4><b>20.tree: List the contents of the remote in a tree like fashion.</b></h4>
+  <p><b>20.tree: List the contents of the remote in a tree like fashion.</b></p>
   <p><b>Following Modes can easily cause Data Loss:</b></p>
   <h4><b>1.Delete: Remove the files in path.</b></h4>
   <h4><b>2.Purge: Will delete whole Directory and leaving nothing behind.</b></h4>
