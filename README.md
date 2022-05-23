@@ -4,7 +4,7 @@
 <h4><b>3.This Project comes with the ability to pack or extract of Files or Folder in varity of formats with or without Password Protection while moving the data from One Cloud to another Cloud.</b></h4>
 <h4><b>4.It comes with various amazing Add-ons which will make your task or work more simple. It combines the power of Rclone with other engines which make a combination that can do your work by taking less efforts and giving more output.</b></h4>
 <h2><b>🆕What's New!🆕</b></h2>
-<p><b><i>v3.0.5 (Amazing Add-ons, Direct Download links, Torrents and bug fixes!)
+<p><b><i>v3.0.5 (Amazing Add-ons, Direct Download links, Torrents and bug fixes!)</i></b></p>
   <h4><b>1.Now download direct download links with various bulk download options to any cloud!😎</b></h4>
   <h4><b>2.Added YouTube Videos/Playlist download including various site support using yt-dlp!😘</b></h4>
   <h4><b>3.Multiple Torrent download support using Magnet link or torrent file directly to any cloud.</b></h4>
