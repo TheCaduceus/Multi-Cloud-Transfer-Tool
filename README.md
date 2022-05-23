@@ -35,7 +35,8 @@
 <h4><b>2.In Latest Rclone Version v1.58.0, they made some changes in Auto-Config. Don't worry I am aware of that and till that you can either follow the New Steps or if you are making config file for Google Drive then you can provide your CLIENT ID and CLIENT SECRET to Work around that situation! I will update you in my Update Channel ,once I find some alternative to help you out in that Step.</b></h4>
 <h4><b>3.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise login will not work.</b></h4>
 <h2><b>📝 Introduction</b></h2>
-<h4><b>This Project makes it easy and possible to Perform every Rclone Task on Google Colaborately and Store your progress on the cloud and continue it where you left it anytime and anywhere! This Project comes with In-Build support to perform basic task like Creating/Editing/Viewing and Deleteing and also Downloading your Rclone Config file which is needed by almost all Rclone User to perform task! To execute any rclone command you just need to type "!rclone" (After installing Required Setup Files) before any command like "!rclone config" where config is the Command name!</b></h4>
+<h4><b>1.This Project makes it easy and possible to Perform every Rclone Task on Google Colaborately and Store your progress on the cloud and continue it where you left it anytime and anywhere! This Project comes with In-Build support to perform basic task like Creating/Editing/Viewing and Deleteing and also Downloading your Rclone Config file which is needed by almost all Rclone User to perform task! To execute any rclone command you just need to type "!rclone" (After installing Required Setup Files) before any command like "!rclone config" where config is the Command name!</b></h4>
+<h4><b>2.Using this! you can combine the power of Rclone and various popular engines to make your task more effective and easy.</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>Please Connect your Google Account, So that Rclone can easily save its progress automatically.</b></h4>
@@ -48,6 +49,8 @@
 <img src="Img/31.png" alt="Using SA">
 <h4><b>You can easily delete your Files/Folder/Directory from the given code</b></h4>
 <img src="Img/35.png" alt="Purge Options">
+<h4><b>This is more than what you expecting! as stated, you can use various add-ons and can make your hard work into effective and easy task.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/169866802-3f5594e6-b1b1-4125-b5c7-17084694ab1d.png"
 <h4><b>This Project gives you the ability to pack or extract files or folders between any cloud with large verity of format support.</b></h4>
 <img src="Img/36.png" alt="Packing & Extraction">
 <h4><b></b></h4>
@@ -159,9 +162,10 @@
   <img src="https://user-images.githubusercontent.com/87380104/169764820-a9678d13-4708-4232-9c65-2cfb682f4bec.png">
 
   <h3><b>Direct Download Links:</b></h3>
-  <h4><b>This feature enables you to download files or data from any direct download to any cloud. It uses Aria engine to deliver to best and fastest performance possible. You can also download two or more links at same time with this.</b></h4>
+  <h4><b>This feature enables you to download files or data from any direct download to any cloud. It uses Aria engine to deliver you best and fastest performance possible. You can also download two or more links at same time with this.</b></h4>
   <h4><b>Just put your direct download links in Source field and then enter the Destination path to where you want to download data. You can enter multiple Direct Download links in the source field by seperating them using space between each link in the following format: </b></h4>
     <p><b>Link1 Link2</b></p>
+  <img src="https://user-images.githubusercontent.com/87380104/169864446-a8c1de39-8121-4451-9d85-416452dc57fc.png">
   <h3><b>Download Links from txt file:</b></h3>
   <h4><b>Download Links from txt file feature enables you download all links written in a txt file. This feature is useful when you have too many links and it will take too much time seperate each link with space.</b></h4>
   <h4><b>You just have to upload the txt file contaning the download links to any cloud which you connected then have to provide its path in Source field and Destination path in Destination field to where you want to download the data. I will recommend to arrange the links in txt files in the below given format: </b></h4>
@@ -169,6 +173,7 @@
     Link2<br>
     Link3
     </b></p>
+  <img src="https://user-images.githubusercontent.com/87380104/169865084-b2bad643-e1e8-4565-8ec7-cae651bd9e1f.png">
   <h3><b>YouTube videos/playlist</b></h3>
   <h4><b>This feature gives you the flexibility to download YouTube Videos or Playlist and videos from other supported sites directly to any Cloud. It uses yt-dlp which downloads everything is maximum quality. You can download two or more videos which are not in same playlist or even two seperate playlist at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt"yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
   <h4><b>Just provide the YouTube link of video or playlist or link to videos located on other website (Non-DRM Protected) in Source field and Destination path in Destination field to where you want to download it. You can seperate the link of videos or playlist by providing space between each in following format:</b></h4>
@@ -177,6 +182,7 @@
   <p><b>Playlist Link1 Playlist Link2</b></p>
   <p></p>
   <p><b>Video Link1 Playlist Link1</b></p>
+  <img src="https://user-images.githubusercontent.com/87380104/169865516-cd07abd2-bc78-40f1-8356-75f1960db86a.png">
   <h3><b>Magnet Links:</b></h3>
   <h4><b>Magnet Links feature allow you to download torrent using magnet link directly into any cloud with high speed. It uses LibTorrent which is a lightweight powerful BitTorrent client. You can download multiple magnet links at once, you don't have to write magnet link in Source Field.</b></h4>
   <h4><b>Just provide the Destination path in Destination field where you have to download the torrent and run the code. You don't have to put magnet link in Source field because when you run the code then you will see input box where you have to put magnet link, you can provide as many magnet link as you can but only 1 magnet link per input box and hit enter! once you done adding magnet links, just type Exit and it will start downloading it.</b></h4>
@@ -199,7 +205,6 @@
   <p><b>3.Destination_Path: The Path on which you want the final output.</b></p>
   <img src="Img/34.png" alt="34">
   <h4><b>4.Then Run the code to start your given task. Finally Enjoy!😎</b></h4>
-    <h5><b>❗This Tool is under Beta and not completely tested yet, but it is definitely safe to use without any Data corruption! So there maybe some condition when it can produce some Error, so please Report them to me.❗</b></h5>
 <h2><b>🚅Modes of Transfer</b></h2>
 <h4><b>As this project use Rclone as a base! and Rclone support multiple flags to help you move or clean your Data, in this Project flags are known as Modes. Here is the list of the Modes that this Project supports:</b></h4>
   <h4><b>1.Copy: Copy files from source to dest, skipping identical files.</b></h4>
