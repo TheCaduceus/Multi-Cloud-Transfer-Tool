@@ -186,7 +186,7 @@
   <h4><b>You have to provide destination path to where you want to download torrent data and torrent file through "Choose file" option. Once you provided torrent file you want to download then click "Cancel Upload" then it will start downloading torrent for you.</b></h4>
   <img src="https://user-images.githubusercontent.com/87380104/169771367-677c9dad-fcfe-41f9-b77c-476e77c23f69.png">
   <h3><b>Mirror GDTOT Links</b></h3>
-  <h4><b>This feature automatically bypass and clone the GDTOT Links directly into your Google Drive's My Drive, So that you can easily move the file any cloud. You just have to provide your "crypt" cookie of GDTOT to use this feature.</b></h4>
+  <h4><b>This feature automatically bypass and clone the GDTOT Links directly into your Google Drive's My Drive, So that you can easily move the file to any cloud. You just have to provide your "crypt" cookie of GDTOT to use this feature.</b></h4>
   <h4><b>To get Crypt cookie of your GDTOT account, just login on GDTOT and then open Developer tools->Applications. Then you have to provide GDTOT link in Source field and leave destination path empty.</b></h4>
   <img src="https://user-images.githubusercontent.com/87380104/169774919-0afe83b6-f4b8-4f7b-8674-2b2caf91ddad.png">
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
