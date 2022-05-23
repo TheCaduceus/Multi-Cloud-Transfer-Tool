@@ -55,7 +55,7 @@
 <img src="Img/36.png" alt="Packing & Extraction">
 <h4><b></b></h4>
 <h2><b>⚙️ How to use?</b></h2>
-<h4><b>1.First Open the Code on Google Colab: <a href="https://colab.research.google.com/github/TheCaduceus/Rclone-Setup-on-Google-Colab/blob/main/Rclone.ipynb" alt="Open Code">Open Code</a></b></h4>
+<h4><b>1.First Open the Code on Google Colab: <a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" alt="Open Code">Open Code</a></b></h4>
 <h4><b>2.Now,Before performing any task, Download & Setup Rclone by running the code as shown in the Image. You can also choose different flavours of Rclone which is described as follows:</b></h4>
   <p><b>Stable: For best Stability.</b></p>
   <p><b>Beta: For Earlier testing of newly released features in Rclone.</b></p>
