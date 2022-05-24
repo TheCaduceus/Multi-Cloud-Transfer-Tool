@@ -15,6 +15,11 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer">🪝Multi Cloud Transfer</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#using-service-accounts">🪀Using Service Accounts</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#special-add-ons">🪄Special Add-ons</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#direct-download-links">->📥Direct Download Links</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#download-links-from-txt-file">->📃Download Links from txt file</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#youtube-videosplaylist--other-sites">->🎥YouTube videos/playlist & other sites</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#magnet-links">->🧲Magnet Links</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8Ftorrent-files">->🗃️Torrent Files</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#packing--extracting-filesfolder">📦Packing & Extracting Files/Folder</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#modes-of-transfer">🚅Modes of Transfer</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#points-to-be-remembered">🎯Points to be Remembered</a></b></p>
