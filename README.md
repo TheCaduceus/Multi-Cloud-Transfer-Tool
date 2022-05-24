@@ -6,7 +6,7 @@
 <h2><b>📑 INDEX</b></h2>
 <h4><b>Easily navigate through out the guide and use MCT Tool effectively and make your work simple!</b></h4>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#whats-new">🆕What's New!🆕w</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#whats-new">🆕What's New!🆕</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#-notice">⛔NOTICE</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#-introduction">📝 Introduction</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#before-you-start">🔌Before you Start!</a></b></p>
