@@ -84,4 +84,8 @@
 !rclone touch	Create new file or change file modification time.
 !rclone tree	List the contents of the remote in a tree like fashion.
 !rclone version	Show the version number.
+---
+!yt-dlp [OPTIONS] [URL1] [URL2]...
+---
+!aria2c <url/magnet/torrents>
 ```
