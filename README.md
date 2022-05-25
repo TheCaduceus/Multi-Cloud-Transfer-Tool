@@ -1,8 +1,8 @@
 # Multi Cloud Transfer (Advanced!) 🔥
 <p><b>1.Setup and Start using Rclone on Google Colab and Create/Edit/View and delete your Rclone config file and keep them always with you using this! No matters which device you are on! Use Anywhere and Anytime and perform all Rclone task and immediately save it!</b></p>
-<p><b>2.Implementation of Multi Cloud Transfer tool! it means you can easily transfer your all account data to any Cloud service which you like! And since it will work on Google Server, so it will be lightning fast⚡and will not consume your Internet or System Resources.😉</p></b>
-<h4><b>3.Ability to pack or extract Files or Folder in variety of formats with or without Password Protection while moving the data from One Cloud to another Cloud.</b></h4>
-<h4><b>4.Various amazing Add-ons which will make your task or work simpler. It combines the power of Rclone with other engines which make a combination that can do your work by taking less efforts and giving more output.</b></h4>
+<p><b>2.Implementation of Multi Cloud Transfer tool! it means you can easily transfer your all account data to any Cloud service which you like! And since it will work on Google Server, so it will be lightning fast⚡and will not consume your Internet or System Resources.😉</b></p>
+<p><b>3.Ability to pack or extract Files or Folder in variety of formats with or without Password Protection while moving the data from One Cloud to another Cloud.</b></p>
+<p><b>4.Various amazing Add-ons which will make your task or work simpler. It combines the power of Rclone with other engines which make a combination that can do your work by taking less efforts and giving more output.</b></p>
 <h2><b>📑 INDEX</b></h2>
 <h4><b>Easily navigate through out the guide and use MCT Tool effectively and make your work simple!</b></h4>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
