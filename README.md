@@ -38,14 +38,14 @@
   <h4><b>5.Addressed bug not allowing custom name while packing data.🥲</b></h4>
   <h4><b>6.Now bypass and mirror GDTOT links directly.🤗</b></h4>
   <h4><b>7.Packer & Extractor is now in STABLE.😉</b></h4>
-  <h4><b>8.Now run aria2 and yt-dlp commands in Colab.😍</b></h4>
+  <h4><b>8.Now run aria2 and yt-dlp commands in Collab.😍</b></h4>
 <p><b><i>v2.2.8 (More Customizations & Packing and Extraction Support)</i></b></p>
 <h4><b>1.Saving Customization for Rclone Configuration.😉</b></h4>
 <h4><b>2.Packing & Extracting Files/Folder between Cloud Transfer.😆</b></h4>
 <h4><b>3.Solved Auto-Unmounting Error for Google Drive.🪄</b></h4>
 <h4><b>4.Error 4 Unzip tools not found Eradicated.⚰️</b></h4>
 <h4><b>5.Added Upload & Use already made Rclone config file option.💾</b></h4>
-<p><b><a href="https://github.com/TheCaduceus/Rclone-Setup-on-Google-Colab/releases">Show Update History</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
 <h4><b>1.The Project is now updated, and everything is optimized for Rclone v1.58.1</b></h4>
 <h4><b>2.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise, login will not work.</b></h4>
