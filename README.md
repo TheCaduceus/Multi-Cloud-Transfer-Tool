@@ -38,7 +38,7 @@
   <h4><b>5.Addressed bug not allowing custom name while packing data.🥲</b></h4>
   <h4><b>6.Now bypass and mirror GDTOT links directly.🤗</b></h4>
   <h4><b>7.Packer & Extractor is now in STABLE.😉</b></h4>
-  <h4><b>8.Now run aria2 and yt-dlp commands in Collab.😍</b></h4>
+  <h4><b>8.Now run aria2 and yt-dlp commands in Colab.😍</b></h4>
 <p><b><i>v2.2.8 (More Customizations & Packing and Extraction Support)</i></b></p>
 <h4><b>1.Saving Customization for Rclone Configuration.😉</b></h4>
 <h4><b>2.Packing & Extracting Files/Folder between Cloud Transfer.😆</b></h4>
@@ -50,7 +50,7 @@
 <h4><b>1.The Project is now updated, and everything is optimized for Rclone v1.58.1</b></h4>
 <h4><b>2.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise, login will not work.</b></h4>
 <h2><b>📝 Introduction</b></h2>
-<h4><b>1.This Project makes it easy and possible to Perform every Rclone Task on Google Collaboratory and Store your progress on the cloud and continue it where you left it anytime and anywhere! This Project comes with In-Build support to perform basic task like Creating/Editing/Viewing and Deleting and also Downloading your Rclone Config file which is needed by almost all Rclone User to perform task! To execute any rclone command you just need to type "!rclone" (After installing Required Setup Files) before any command like "!rclone config" where config is the Command name!</b></h4>
+<h4><b>1.This Project makes it easy and possible to Perform every Rclone Task on Google Colaboratory and Store your progress on the cloud and continue it where you left it anytime and anywhere! This Project comes with In-Build support to perform basic task like Creating/Editing/Viewing and Deleting and also Downloading your Rclone Config file which is needed by almost all Rclone User to perform task! To execute any rclone command you just need to type "!rclone" (After installing Required Setup Files) before any command like "!rclone config" where config is the Command name!</b></h4>
 <h4><b>2.Using this! you can combine the power of Rclone and various popular engines to make your task more effective and easier.</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
@@ -70,7 +70,7 @@
 <img src="Img/36.png" alt="Packing & Extraction">
 
 <h2><b>⚙️ How to use?</b></h2>
-<h4><b>1.First Open the Code on Google Collab: <a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" alt="Open Code">Open Code</a></b></h4>
+<h4><b>1.First Open the Code on Google Colab: <a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" alt="Open Code">Open Code</a></b></h4>
 <h4><b>2.Now, before performing any task, Download & Setup Rclone by running the code as shown in the Image. You can also choose different flavours of Rclone which is described as follows:</b></h4>
   <p><b>Stable: For best Stability.</b></p>
   <p><b>Beta: For Earlier testing of newly released features in Rclone.</b></p>
@@ -166,7 +166,7 @@
 <h4><b>The service accounts can be used to bypass the 750Gb/day upload limit set by google in Google Drive. It means that you can use them to upload more than 750Gb per day, duplicate hundreds of files...Each service account has a 750Gb upload limit per day. You can create up to 100 service account per google cloud project. So, with only one project you can upload/duplicate up to 75Tb a day!</b></h4>
   <h4><b>1.Don't have Service Accounts?<a href="https://telegra.ph/How-to-create-and-use-service-accounts-sa-03-31" alt="Creating SA"> Create Here</a></b></h4>
   <h4><b>2.After creating! make the zip of "accounts" folder which have 100 Json files and keep its name as "accounts.zip".</b></h4>
-  <h4><b>3.Now back to Google Collab screen and run the code as shown in the Image and click "Choose file" and select the zip file you just created!</b></h4>
+  <h4><b>3.Now back to Google Colab screen and run the code as shown in the Image and click "Choose file" and select the zip file you just created!</b></h4>
   <img src="Img/31.png">
   <h4><b>4.After it! Click the file icon, then open "accounts" folder and right click on anyone Json file and select "Copy path".</b></h4>
   <img src="Img/32.png">
