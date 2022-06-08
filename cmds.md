@@ -88,4 +88,6 @@
 !yt-dlp [OPTIONS] [URL1] [URL2]...
 ---
 !aria2c <url/magnet/torrents>
+---
+All 7-Zip / WinRAR Commands now supported
 ```
