@@ -21,6 +21,8 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#magnet-links">->🧲Magnet Links</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8Ftorrent-files">->🗃️Torrent Files</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#mirror-gdtot-links">->🪞Mirror GDTOT Links</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#mirror-hubdrivedrivehub-links">->🧿Mirror HubDrive/DriveHub links</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%E2%93%9C%EF%B8%8Fdownload-mega-links">->Ⓜ️Download MEGA Links</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#packing--extracting-filesfolder">📦Packing & Extracting Files/Folder</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#modes-of-transfer">🚅Modes of Transfer</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#points-to-be-remembered">🎯Points to be Remembered</a></b></p>
@@ -30,21 +32,19 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#contact-us">⛑Contact Us!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
 <h2><b>🆕What's New!🆕</b></h2>
-<p><b><i>v3.0.5 (Amazing Add-ons, Direct Download links, Torrents and bug fixes!)</i></b></p>
-  <h4><b>1.Now download direct download links with various bulk download options to any cloud!😎</b></h4>
-  <h4><b>2.Added YouTube Videos/Playlist download including various site support using yt-dlp!😘</b></h4>
-  <h4><b>3.Multiple Torrent download support using Magnet link or torrent file directly to any cloud.🥰</b></h4>
-  <h4><b>4.Fixed wrong token error in Source & Destination path.😅</b></h4>
-  <h4><b>5.Addressed bug not allowing custom name while packing data.🥲</b></h4>
-  <h4><b>6.Now bypass and mirror GDTOT links directly.🤗</b></h4>
-  <h4><b>7.Packer & Extractor is now in STABLE.😉</b></h4>
-  <h4><b>8.Now run aria2 and yt-dlp commands in Colab.😍</b></h4>
-<p><b><i>v2.2.8 (More Customizations & Packing and Extraction Support)</i></b></p>
-<h4><b>1.Saving Customization for Rclone Configuration.😉</b></h4>
-<h4><b>2.Packing & Extracting Files/Folder between Cloud Transfer.😆</b></h4>
-<h4><b>3.Solved Auto-Unmounting Error for Google Drive.🪄</b></h4>
-<h4><b>4.Error 4 Unzip tools not found Eradicated.⚰️</b></h4>
-<h4><b>5.Added Upload & Use already made Rclone config file option.💾</b></h4>
+<p><b><i>v4.0.2 (Progress saving customization, Mirror Links, Update alerts and Bug fixes)</i></b></p>
+  <h4><b>1.Download MEGA Links with or without MEGA Account to any Cloud directly!😎</b></h4>
+  <h4><b>2.Now save all your MCT Configurations including Service Accounts, Rclone config, MEGA Credentials, GDTOT Crypt and HubDrive or DriveHub Crypt.🤩</b></h4>
+  <h4><b>3.MCT Tool will move configurations to "MCT Config" folder at place of creating mess in My Drive.🤣</b></h4>
+  <h4><b>4.Stay updated! get update alerts if using old NoteBook version😘</b></h4>
+  <h4><b>5.Mirror HubDrive / DriveHub links easily.🥰</b></h4>
+  <h4><b>6.Fixed all errors in pack & extraction section.😅</b></h4>
+  <h4><b>7.Server sided copy option will now work on Colab.😄</b></h4>
+  <h4><b>8.Yt-dlp will now not cause any problem in long-run.🤗</b></h4>
+  <h4><b>9.Tool will now configure WinRAR by default in environment at place of downloading it manually.😉</b></h4>
+  <h4><b>10.More saving customization for Service Accounts.😙</b></h4>
+  <h4><b>11.Killed almost all bugs and frustrating wait time.🏹</b></h4>
+  <h4><b>12.Heavy improvements in all part of tool, try to explorer it yourself.😍</b></h4>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
 <h4><b>1.The Project is now updated, and everything is optimized for Rclone v1.58.1</b></h4>
@@ -56,12 +56,12 @@
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>Please Connect your Google Account, so that Rclone can easily save its progress automatically.</b></h4>
 <img src="Img/rq-1.png">
-<h4><b>If you want to use your own Rclone config file or the progress saved in your Google Drive in My Drive! Then run the following Code as shown in the image</b></h4>
-<img src="Img/rq-2.png">
+<h4><b>Fetch your previous saved MCT Tool config from Google Drive->My Drive->MCT Config folder to stop wasting your time.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/172589674-e6220c77-b2fb-4081-afd7-dce331991876.png">
 <h4><b>Run the auto-reconnector to prevent Google Colab from getting timeout before your Transfer got Completed.</b></h4>
 <img src="Img/30.png">
 <h4><b>You can easily use the Service Accounts (if you want to) using the given code, please read "Using Service Accounts" Section to learn how to.</b></h4>
-<img src="Img/31.png" alt="Using SA">
+<img src="https://user-images.githubusercontent.com/87380104/172588290-03173d04-e75e-4914-9b64-e80f6a827942.png" alt="Using SA">
 <h4><b>You can easily delete your Files/Folder/Directory from the given code.</b></h4>
 <img src="Img/35.png" alt="Purge Options">
 <h4><b>This is more than what you are expecting! as stated, you can use various add-ons and can make your hard work into effective and easy task.</b></h4>
@@ -166,8 +166,11 @@
 <h4><b>The service accounts can be used to bypass the 750Gb/day upload limit set by google in Google Drive. It means that you can use them to upload more than 750Gb per day, duplicate hundreds of files...Each service account has a 750Gb upload limit per day. You can create up to 100 service account per google cloud project. So, with only one project you can upload/duplicate up to 75Tb a day!</b></h4>
   <h4><b>1.Don't have Service Accounts?<a href="https://telegra.ph/How-to-create-and-use-service-accounts-sa-03-31" alt="Creating SA"> Create Here</a></b></h4>
   <h4><b>2.After creating! make the zip of "accounts" folder which have 100 Json files and keep its name as "accounts.zip".</b></h4>
-  <h4><b>3.Now back to Google Colab screen and run the code as shown in the Image and click "Choose file" and select the zip file you just created!</b></h4>
-  <img src="Img/31.png">
+  <h4><b>3.Now back to Google Colab screen and select saving options for Service Accounts to use them without uploading them again next time.</b></h4>
+  <h5><b>Service Accounts Saving options:</b></h5>
+  <p><b>1.Upload_Service_Accounts: Upload new Service Accounts.</b></p>
+  <p><b>2.Save_Service_Accounts_MyDrive: Save new/existing Service Accounts to Google Drive-> My Drive</b></p>
+  <img src="https://user-images.githubusercontent.com/87380104/172588290-03173d04-e75e-4914-9b64-e80f6a827942.png">
   <h4><b>4.After it! Click the file icon, then open "accounts" folder and right click on anyone Json file and select "Copy path".</b></h4>
   <img src="Img/32.png">
   <h4><b>5.Run the "Create/Edit/Delete Rclone Config File" and paste the path in "service_account_file" during creating remote for Google Drive.</b></h4>
@@ -209,9 +212,21 @@
   <h3><b>🪞Mirror GDTOT Links</b></h3>
   <h4><b>This feature automatically bypasses and clone the GDTOT Links directly into your Google Drive's My Drive, so that you can easily move the file to any cloud. You just have to provide your "crypt" cookie of GDTOT to use this feature.</b></h4>
   <h4><b>To use this feature, you need a GDTOT link and GDTOT Crypt cookie. Here is how to get your Crypt cookie for GDTOT:</b></h4>
-  <h4><b>1.First open any browser and go to GDTOT website then login with your Google Account.</b></h4>
+  <h4><b>1.First open any browser and go to GDTOT Website then login with your Google Account.</b></h4>
   <h4><b>2.Now open Developer Tools by pressing CTRL+SHIFT+I and go to application, "cookies" option is now visible as shown in the image and by opening it you will see a cookie named "crypt" just press on it and its value will be visible! Remove "%" from end and words written next to it, now you can use the final value with this tool.</b></h4>
+  <h4><b>3.You have to enter GDTOT Link in source field and crypt in the input box which you will get after running the code.</b></h4>
   <img src="https://user-images.githubusercontent.com/87380104/169774919-0afe83b6-f4b8-4f7b-8674-2b2caf91ddad.png">
+  <h3><b>🧿Mirror HubDrive/DriveHub links</b></h3>
+  <h4><b>Mirror HubDrive/DriveHub mode bypasees and clone the HubDrive or DriveHub links to your Google Drive's My Drive to make it possible for you to move its data to any cloud.</b></h4>
+  <h4><b>To use this feature, you need a DriveHub link and HubDrive Crypt cookie. Here is how to get your Crypt cookie for HubDrive:</b></h4>
+  <h4><b>1.First open any browser and go to <a href="https://drivehub.in/">HubDrive Website</a> and then login with your Google Account.</b></h4>
+  <h4><b>2.Now open Developer Tools by pressing CTRL+SHIFT+I and go to application, "cookies" option is now visible as shown in the image and by opening it you will see a cookie named "crypt" just press on it and its value will be visible! Remove "%" from end and words written next to it, now you can use the final value with this tool.</b></h4>
+  <h4><b>3.You have to enter HubDrive or DriveHub Link in source field and crypt in the input box which you will get after running the code.</b></h4>
+  <img src="https://user-images.githubusercontent.com/87380104/169774919-0afe83b6-f4b8-4f7b-8674-2b2caf91ddad.png">
+  <h3><b>Ⓜ️Download MEGA Links</b></h3>
+  <h4><b>This feature enables you to download MEGA Link with or without your MEGA Account incase if you want to use your MEGA Premium account directly to any cloud.</b></h4>
+  <h4><b>1.As stated above! you can use your MEGA Account if you want and this tool will save it automtically for future use. Enter MEGA Link in source field and Destination in Destination field where you have to download the MEGA Files.</b></h4>
+  <h4><b>2.If destination path is not provided then downloaded files will be moved to downloades folder in connected runtime (Temporary storage).<b></h4>
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
   <h4><b>This Project comes with the ability to pack or extract of Files or Folder in variety of formats with or without Password Protection while moving the data from One Cloud to another Cloud. What you need is just Source Path which needs to be packed or extracted and Destination Path where you need the final result, so let's learn how to use this feature.😆</b></h4>
   <h4><b>1.First connect the Cloud Accounts between which you need to transfer the packed or extracted data. Please read STEP 2 of "🪝Multi Cloud Transfer" section to learn how to do that!</b></h4>
