@@ -35,17 +35,18 @@
 <h2><b>🆕What's New!🆕</b></h2>
 <p><b><i>v4.0.2 (Progress saving customization, Mirror Links, Update alerts and Bug fixes)</i></b></p>
   <h4><b>1.Download MEGA Links with or without MEGA Account to any Cloud directly!😎</b></h4>
-  <h4><b>2.Now save all your MCT Configurations including Service Accounts, Rclone config, MEGA Credentials, GDTOT Crypt and HubDrive or DriveHub Crypt.🤩</b></h4>
-  <h4><b>3.MCT Tool will move configurations to "MCT Config" folder at place of creating mess in My Drive.🤣</b></h4>
-  <h4><b>4.Stay updated! get update alerts if using old NoteBook version😘</b></h4>
-  <h4><b>5.Mirror HubDrive / DriveHub links easily.🥰</b></h4>
-  <h4><b>6.Fixed all errors in pack & extraction section.😅</b></h4>
-  <h4><b>7.Server sided copy option will now work on Colab.😄</b></h4>
-  <h4><b>8.Yt-dlp will now not cause any problem in long-run.🤗</b></h4>
-  <h4><b>9.Tool will now configure WinRAR by default in environment at place of downloading it manually.😉</b></h4>
-  <h4><b>10.More saving customization for Service Accounts.😙</b></h4>
-  <h4><b>11.Killed almost all bugs and frustrating wait time.🏹</b></h4>
-  <h4><b>12.Heavy improvements in all part of tool, try to explorer it yourself.😍</b></h4>
+  <h4><b>2.Upload files to anonymous file sharing platform: Anonfiles.😄</b></h4>
+  <h4><b>3.Now save all your MCT Configurations including Service Accounts, Rclone config, MEGA Credentials, GDTOT Crypt and HubDrive or DriveHub Crypt.🤩</b></h4>
+  <h4><b>4.MCT Tool will move configurations to "MCT Config" folder at place of creating mess in My Drive.🤣</b></h4>
+  <h4><b>5.Stay updated! get update alerts if using old NoteBook version😘</b></h4>
+  <h4><b>6.Mirror HubDrive / DriveHub links easily.🥰</b></h4>
+  <h4><b>7.Fixed all errors in pack & extraction section.😅</b></h4>
+  <h4><b>8.Server sided copy option will now work on Colab.😄</b></h4>
+  <h4><b>9.Yt-dlp will now not cause any problem in long-run.🤗</b></h4>
+  <h4><b>10.Tool will now configure WinRAR by default in environment at place of downloading it manually.😉</b></h4>
+  <h4><b>11.More saving customization for Service Accounts.😙</b></h4>
+  <h4><b>12.Killed almost all bugs and frustrating wait time.🏹</b></h4>
+  <h4><b>13.Heavy improvements in all part of tool, try to explorer it yourself.😍</b></h4>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
 <h4><b>1.The Project is now updated, and everything is optimized for Rclone v1.58.1</b></h4>
