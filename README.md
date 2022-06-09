@@ -20,6 +20,7 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#youtube-videosplaylist--other-sites">->🎥YouTube videos/playlist & other sites</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#magnet-links">->🧲Magnet Links</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8Ftorrent-files">->🗃️Torrent Files</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/#upload-files-to-anonfiles">->📤Upload Files to Anonfiles</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#mirror-gdtot-links">->🪞Mirror GDTOT Links</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#mirror-hubdrivedrivehub-links">->🧿Mirror HubDrive/DriveHub links</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%E2%93%9C%EF%B8%8Fdownload-mega-links">->Ⓜ️Download MEGA Links</a></b></p>
@@ -209,6 +210,9 @@
   <h4><b>This feature gives you ability to download torrent from .torrent files, you can provide as many torrent files as much you want. It also uses LibTorrent to deliver fast download speed.</b></h4>
   <h4><b>You have to provide destination path to where you want to download torrent data and torrent file through "Choose file" option. Once you provided torrent file you want to download then click "Cancel Upload" then it will start downloading torrent for you.</b></h4>
   <img src="https://user-images.githubusercontent.com/87380104/169771367-677c9dad-fcfe-41f9-b77c-476e77c23f69.png">
+  <h3><b>📤Upload Files to Anonfiles</b></h3>
+    <h4><b>Anonfiles is a anonymous file sharing platform that allow you to upload files upto 20GB without any sign up. MCT Tool enables you to upload files to Anonfiles from any cloud and in return it will give you the file download link.</b></h4>
+    <h4><b>1.For this! you just need to provide the Source path is source field and run code, and once your file got uploaded then program will automatically return you the file download link.</b></h4>
   <h3><b>🪞Mirror GDTOT Links</b></h3>
   <h4><b>This feature automatically bypasses and clone the GDTOT Links directly into your Google Drive's My Drive, so that you can easily move the file to any cloud. You just have to provide your "crypt" cookie of GDTOT to use this feature.</b></h4>
   <h4><b>To use this feature, you need a GDTOT link and GDTOT Crypt cookie. Here is how to get your Crypt cookie for GDTOT:</b></h4>
