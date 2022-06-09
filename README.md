@@ -270,6 +270,22 @@
   <h4><b>2.Purge: Will delete whole Directory and leaving nothing behind.</b></h4>
   <h4><b>3.rmdir: Completely Delete the given path.</b></h4>
   <h4><b>4.rmdirs: Remove any empty directories under the path.</b></h4>
+<h2><b>⚠️Error Messages</b></h2>
+<h3><b>MCT Tool is a multi purpose tool, it comes with various useful features, but you may tackle some Error codes which are their to prevent wrong configurations or progress loss! Below are common Error codes which you may tackle or tackled in Tool:</b></h3>
+<h4><b>1.Google Drive Error: Google Account is not connected!</b></h4>
+<p><b>This Error code is self explanatory and caused when you try to use MCT Tool without connecting your Google Account. The main aim of MCT Tool is to save/edit/export important configurations from/to your Google Drive, this is because Colab provides temporary runtimes which got reset due to inactivity.</b></p>
+<h4><b>2.Restore point not exist in your Google Drive, use additional feature of MCT Tool and it will be automatically created.</b></h4>
+<p><b>As usual, this error code is also self explanatory and caused only when you try to fetch your previously saved MCT Tool configurations from My Drive. MCT Tool creates and saves all your important input or simply values of specific variables in "MCT-Config" folder located in your My Drive and that's why it checks before fetching any configurations or simply values that if the "MCT-Config" folder exist or not. Basically this check is their to save your time and make MCT Tool work faster because it will take time to check the existance of 4-5 files at place of checking the existance of only folder and only importing configurations only if they exist.</b></p>
+<h4><b>3.MEGA Credentials not found or not valid!</b></h4>
+<p><b>This Error happens when you ask program to download MEGA Links using MEGA Account, but you not provided the MEGA Account credentials or wrong credentials.</b></p>
+<h4><b>4.Path Error: One or more required path is missing! Check if you connected Google Account or not?</b></h4>
+<p><b>When you don't provide required paths like Source path or Destination path then this problem happens. This can also be happen if Google Account is not connected but this condition is already no more exist after v4.0.2 of MCT Tool.</b></p>
+<h4><b>5.Destination field is empty, hence downloaded files will be moved to downloads folder.</b></h4>
+<p><b>If you leave Destination field empty while downloading files from MEGA Links then it will trigger this error. In that case your MEGA Link will be downloaded in "downloads" folder of runtime allotted to you by Google Colab. Basically I was tired of using sys.exit() so I ignored this error and tried to warn user at place of interuptting whole work.🤣</b></p>
+<h4><b>6.Source field can't be empty.</b></h4>
+<p><b>Uff...🤣 Read Error again! and reason that why I added this error is written in error 5 (Destination Error).</b></p>
+<h4><b>7.Input Error: Invalid input parameter! Please enter 0 or 1 as input.</b></h4>
+<p><b>MCT Tool requires user's favor before doing  particular task and hence it follows a simple format where '0' (Zero) means No and '1'(One) means Yes and entering something else trigger this error.</b></p>
 <h2><b>🎯Points to be Remembered</b></h2>
 <h4><b>1.Always choose No (n) for Auto-Config because we are not going to use Rclone on our Local Device/Machine otherwise login will not work!</b></h4>
 <h4><b>2.Don't forget to type '!' before executing any custom Rclone Command.</b></h4>
