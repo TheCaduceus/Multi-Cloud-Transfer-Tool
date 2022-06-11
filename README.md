@@ -60,6 +60,7 @@
 <h4><b>Please Connect your Google Account, so that Rclone can easily save its progress automatically.</b></h4>
 <img src="Img/rq-1.png">
 <h4><b>Fetch your previous saved MCT Tool config from Google Drive->My Drive->MCT Config folder to stop wasting your time.</b></h4>
+<h4><b>->Additonally! Check_Root_MyDrive option is their to help you fetch MCT-Cofiguration files to MCT-Config folder and take them in use. It is helpful if you are migrating to MCT Version v4.0.2 or newer from v3.0.5 or older.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/172589674-e6220c77-b2fb-4081-afd7-dce331991876.png">
 <h4><b>Run the auto-reconnector to prevent Google Colab from getting timeout before your Transfer got Completed.</b></h4>
 <img src="Img/30.png">
@@ -142,8 +143,9 @@
 <h2><b>📑Creating Config File for More Clouds</b></h2>
 <p><b>You can learn creating config file for all Cloud Services: <a href="https://rclone.org/docs/">Learn Here</a></b></p>
 <h2><b>🪝Multi Cloud Transfer</b></h2>
-<p><b>Let's move Data from any cloud to any cloud as you want! Since we are using Collab, so it will not consume your Internet or System Resource.</b></p>
-<h4><b>1.Before we procced! I recommend to either create/upload or fetch your Rclone Config file to Google Collab using above three methods! Creating and fetching will automatically place the file in correct location!</b></h4>
+<p><b>Let's move Data from any cloud to any cloud as you want! Since we are using Colab, so it will not consume your Internet or System Resource.</b></p>
+<h4><b>1.Before we procced! I recommend to either create/upload or fetch your Rclone Config file to Google Colab using above three methods! Creating and fetching will automatically place the file in correct location!</b></h4>
+<h4><b>->Additonally! Check_Root_MyDrive option is their to help you fetch MCT-Cofiguration files to MCT-Config folder and take them in use. It is helpful if you are migrating to MCT Version v4.0.2 or newer from v3.0.5 or older.</b></h4>
 <img src="Img/24.png">
 <h4><b>2.Once you done creating or fetching the config file! Just run the Code named "Connect to Cloud Accounts" and it will automatically detect your config file and will show you dropdown list to mount multiple remotes as shown in the image. Now select remoted and click mount to connect to those remotes between which you have to transfer your Data.</b></h4>
 <img src="Img/25.png">
