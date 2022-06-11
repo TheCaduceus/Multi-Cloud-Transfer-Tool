@@ -8,7 +8,6 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#whats-new">🆕What's New!🆕</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#-notice">⛔NOTICE</a></b></p>
-<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#-introduction">📝 Introduction</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#before-you-start">🔌Before you Start!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8F-how-to-use">⚙️ How to use?</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#creating-config-file-for-more-clouds">📑Creating Config File for More Clouds</a></b></p>
@@ -52,9 +51,6 @@
 <h2><b>⛔ NOTICE</b></h2>
 <h4><b>1.The Project is now updated, and everything is optimized for Rclone v1.58.1</b></h4>
 <h4><b>2.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise, login will not work.</b></h4>
-<h2><b>📝 Introduction</b></h2>
-<h4><b>1.This Project makes it easy and possible to Perform every Rclone Task on Google Colaboratory and Store your progress on the cloud and continue it where you left it anytime and anywhere! This Project comes with In-Build support to perform basic task like Creating/Editing/Viewing and Deleting and also Downloading your Rclone Config file which is needed by almost all Rclone User to perform task! To execute any rclone command you just need to type "!rclone" (After installing Required Setup Files) before any command like "!rclone config" where config is the Command name!</b></h4>
-<h4><b>2.Using this! you can combine the power of Rclone and various popular engines to make your task more effective and easier.</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>Please Connect your Google Account, so that Rclone can easily save its progress automatically.</b></h4>
