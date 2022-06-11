@@ -57,7 +57,7 @@
 <img src="Img/rq-1.png">
 <h4><b>Fetch your previous saved MCT Tool config from Google Drive->My Drive->MCT Config folder to stop wasting your time.</b></h4>
 <h4><b>Additonally, Check_Root_MyDrive option is their to help you fetch MCT-Cofiguration files to MCT-Config folder from Root directory of My Drive and take them in use. It is helpful if you are migrating to MCT Version v4.0.2 or newer from v3.0.5 or older.</b></h4>
-<img src="https://user-images.githubusercontent.com/87380104/172589674-e6220c77-b2fb-4081-afd7-dce331991876.png">
+<img src="https://user-images.githubusercontent.com/87380104/173189695-b916b52c-71cf-4f1e-9c0b-8b67aaa2ed0f.png">
 <h4><b>Run the auto-reconnector to prevent Google Colab from getting timeout before your Transfer got Completed.</b></h4>
 <img src="Img/30.png">
 <h4><b>You can easily use the Service Accounts (if you want to) using the given code, please read "Using Service Accounts" Section to learn how to.</b></h4>
