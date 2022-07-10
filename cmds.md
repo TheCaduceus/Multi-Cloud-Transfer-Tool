@@ -49,6 +49,7 @@
 !rclone lsf	List directories and objects in remote:path formatted for parsing.
 !rclone lsjson	List directories and objects in the path in JSON format.
 !rclone lsl	List the objects in path with modification time, size and path.
+!rclone test makefile: Make files with random contents and of any size.
 !rclone md5sum	Produces an md5sum file for all the objects in the path.
 !rclone mkdir	Make the path if it doesn't already exist.
 !rclone mount	Mount the remote as file system on a mountpoint.
