@@ -55,9 +55,9 @@
   <p><b>  ->Solved No free space left error. (pCloud)</b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
-<h4><b>1.The Project uses Rclone v1.59.0</b></h4>
+<h4><b>1.Project uses Rclone v1.59.0</b></h4>
 <h4><b>2.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise, login will not work.</b></h4>
-<h4><b>3.Using this project to processing any illegal content (as per Google Policy) can terminate your access to Google Colab</b></h4>
+<h4><b>3.Using this project for processing any illegal content (as per Google Policy) can terminate your access to Google Colab</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>1.Please Connect your Google Account, so that Rclone can easily save its progress automatically.</b></h4>
