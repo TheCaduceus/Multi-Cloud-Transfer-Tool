@@ -55,9 +55,9 @@
   <p><b>  ->Solved No free space left error. (pCloud)</b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
-<h4><b>1.The Project uses Rclone v1.59.0</b></h4>
+<h4><b>1.Project uses Rclone v1.59.0</b></h4>
 <h4><b>2.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise, login will not work.</b></h4>
-<h4><b>3.Using this project to processing any illegal content (as per Google Policy) can terminate your access to Google Colab</b></h4>
+<h4><b>3.Using this project for processing any illegal content (as per Google Policy) can terminate your access to Google Colab</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>1.Please Connect your Google Account, so that Rclone can easily save its progress automatically.</b></h4>
@@ -317,6 +317,7 @@
 <h4><b>4.Variety of features: It comes with various amazing Add-ons which will make your task or work simpler. It combines the power of Rclone with other engines which make a combination that can do your work by taking less efforts and giving more output.</b></h4>
 <h2><b>🔐 Safe or Not? ✅</b></h2>
 <h4><b> 1.Don't Worry! No data will be shared with anyone, if you use the <a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool">Original code</a>.🔒</b></h4>
+    
 <h4><b> 2.This code do not share even a single piece of data to any third party source and not create any log of that!🔑</b></h4>
 <h4><b> 3.Do not trust any other copy of this Code.📚</b></h4>
 <h2><b>⛑Contact Us!</b></h2>
