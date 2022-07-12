@@ -317,6 +317,7 @@
 <h4><b>4.Variety of features: It comes with various amazing Add-ons which will make your task or work simpler. It combines the power of Rclone with other engines which make a combination that can do your work by taking less efforts and giving more output.</b></h4>
 <h2><b>🔐 Safe or Not? ✅</b></h2>
 <h4><b> 1.Don't Worry! No data will be shared with anyone, if you use the <a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool">Original code</a>.🔒</b></h4>
+    
 <h4><b> 2.This code do not share even a single piece of data to any third party source and not create any log of that!🔑</b></h4>
 <h4><b> 3.Do not trust any other copy of this Code.📚</b></h4>
 <h2><b>⛑Contact Us!</b></h2>
