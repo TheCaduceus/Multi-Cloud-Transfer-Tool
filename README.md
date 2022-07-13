@@ -89,10 +89,11 @@
 
 <h2><b>⚙️ How to use?</b></h2>
 <h4><b>1.First Open the Code on Google Colab: <a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" alt="Open Code">Open Code</a></b></h4>
-<h4><b>2.Now, before performing any task, Download & Setup Rclone by running the code as shown in the Image. You can also choose different flavours of Rclone which is described as follows:</b></h4>
+<h4><b>2.Now, before performing any task, Download & Setup Rclone and other dependencies by running the code as shown in the Image. You can also choose different flavours of Rclone which is described as follows:</b></h4>
   <p><b><code>Stable</code>: For best Stability.</b></p>
   <p><b><code>Beta</code>: For Earlier testing of newly released features in Rclone.</b></p>
-<img src="Img/1.png" alt="1">
+  <p><b><code>Force_Setup</code>: Forcefully install Rclone by excluding all other dependencies and download them separately. Useful if any dependency (except Rclone) having temporary setup problem.</b></p>
+<img src="https://user-images.githubusercontent.com/87380104/178687624-f2446553-fb87-44e6-a085-65aa3f9735c7.png" alt="1">
 <h4><b>3.To Create/Edit/Delete/View config file/remote just run the code as shown in the Image. You can also save your Rclone config file for using it in future without doing same thing repeatedly.</b></h4>
   <h5><b>Rclone config Saving options:</b></h5>
   <p><b><code>Upload_Config_File</code>: Upload your already made Rclone config file to use it.</b></p>
