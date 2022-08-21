@@ -68,6 +68,7 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#mirror-gdtot-links">->🪞Mirror GDTOT Links</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#mirror-hubdrivedrivehub-links">->🧿Mirror HubDrive/DriveHub links</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%E2%93%9C%EF%B8%8Fdownload-mega-links">->Ⓜ️Download MEGA Links</a></b></p>
+<p><b><a href="#%EF%B8%8Fuup-dump">->🗑️UUP DUMP</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#packing--extracting-filesfolder">📦Packing & Extracting Files/Folder</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8Ferror-messages">⚠️Error Messages</b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#modes-of-transfer">🚅Modes of Transfer</a></b></p>
@@ -79,34 +80,43 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
 <h2><b>🆕What's New!🆕</b></h2>
 <h4><b>1.Package Upgrades:<b></h4>
-  <p><b>  ->Rclone upgraded to <code>v1.59.0</code></b></p>
-  <p><b>  ->yt-dlp upgraded to <code>v2022.06.29</code></b></p>
-  <p><b>  ->7-Zip upgraded to <code>v22.06.15</code></b></p>
+  <p><b>  ->Rclone upgraded to <code>v1.59.1</code></b></p>
+  <p><b>  ->yt-dlp upgraded to <code>v2022.08.19</code></b></p>
+  <p><b>  ->7-Zip upgraded to <code>v22.07.15</code></b></p>
+  <p><b>  ->LibTorrent upgraded to <code>v2.0.7</code></b></p>
+  <p><b>  ->NoteBook upgraded to <code>v4.4.8</code></p></b>
 <h4><b>2.New features:<b></h4>
-  <p><b>  ->Combine multiple remotes in one directory tree</b></p>
-  <p><b>  ->MCT Configuration data can be imported or exported on/from custom paths.</b></p>
-  <p><b>  ->Error Mitigators to easily mitigate error while retriveing/exporting configuration files.</b></p>
-  <p><b>  ->New <code>test makefile</code> mode to create a file with random content of a particular size.</b></p>
-  <p><b>  ->Multiple Backends to prevent any error during setup.</b></p>
-  <p><b>  ->Speed up hash checking by aborting the other hash if first returns nothing.</b></p>
-  <p><b>  ->Added <code>--header-filename</code> to honor the HTTP header filename directive.</b></p>
-  <p><b>  ->Implemented <code>--disable-http-keep-alives</code> to disable HTTP Keep Alives.</b></p>
-  <p><b>  ->Warn about inaccurate results when objects with unknown size.</b></p>
+  <p><b>  -><code>FORCE_REMOUNT</code>: Forcefully remount your Google Drive to fix any error.</b></p>
+  <p><b>  -><code>CUSTOM_MOUNT_POINT</code>: Choose different path for mounting your Rclone remotes or Google Drive.</b></p>
+  <p><b>  -><code>DEBUG_MODE</code>: DEBUG Mode to help people in case of any error while mounting Google Drive (Special Case).</b></p>
+  <p><b>  -><code>Custom_sh_file</code>: Get custom <code>.sh</code> file from external source (URL or File Path) and execute it to install additional dependecies or requirements with or without normal setup.</b></p>
+  <p><b>  ->Flexibility to run <code>.sh</code> file as sudo or without sudo.</b></p>
+  <p><b>  -><code>Custom_Cache_Dir</code>: To set custom cache directory for Rclone remotes.</b></p>
+  <p><b>  -><code>UUP Dump</code>: It enables you to collect files mentioned in uup_download_linux.sh files and upload them to any cloud mentioned as Destination. It makes your work super easy to make ISO files using <code>.sh</code> file given by UUP DUMP Website or any other websites.</b></p>
+  <p><b>  ->Throw error if duplicate directory name is specified.</b></p>
+  <p><b>  ->Handle hash symbol in the middle of filename.</b></p>
 <h4><b>3.Bug fixes:<b></h4>
-  <p><b>  ->Addressed error where Notebook is unable to download setup when connection failed to back-end.</b></p>
-  <p><b>  ->Mitigated error causing 7z extraction in case of some specific files.</b></p>
-  <p><b>  ->Made <code>--drive-shared-with-me</code> work with shared drives. (Google Drive)</b></p>
-  <p><b>  ->Fixed 404 errors on copy/server side copy objects from public folder. (Google Drive)</b></p>
-  <p><b>  ->Solved No free space left error. (pCloud)</b></p>
+  <p><b>  ->Addressed error where users are unable to mount Rclone remotes due to Mount Widget is not visible because of new changes by Google Colab team.</b></p>
+  <p><b>  ->Mitigated errors in Zipping/Unzipping section where Custom Name and Paths causing problems or confusion, typo errors in switches are now completely fixed.</b></p>
+  <p><b>  ->Detectors to automatically fix error while connecting Google Account.</b></p>
+  <p><b>  ->Fix errors with backends shutting down while in use</b></p>
+  <p><b>  ->Fix hang on quit with <code>--dropbox-batch-mode</code> off</b></p>
+  <p><b>  ->Fix infinite loop on uploading a corrupted file</b></p>
+  <p><b>  ->Fix nil pointer exception when bad node received</b></p>
+  <p><b>  ->Fix panic due to misalignment of struct field in 32 bit architectures</p></b>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
-<h4><b>1.Project uses Rclone v1.59.0</b></h4>
+<h4><b>1.Project uses Rclone v1.59.1</b></h4>
 <h4><b>2.For auto-config always choose No(n) because we are going to run the Rclone not on our own local device! Otherwise, login will not work.</b></h4>
 <h4><b>3.Using this project for processing any illegal content (as per Google Policy) can terminate your access to Google Colab</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you Start!</b></h2>
 <h4><b>1.Please Connect your Google Account, so that Rclone can easily save its progress automatically.</b></h4>
-<img src="Img/rq-1.png">
+<h4><b>Options:</b></h4>
+<p><b><code>FORCE_REMOUNT</code>: Forcefully remount your Google Account's Google Drive.</b></p>
+<p><b><code>CUSTOM_MOUNT_POINT</code>: Choose different path for mounting your Google Account's Google Drive.</p>
+<p><b><code>DEBUG_MODE</code>: To Enable or Disable DEBUG Mode.</b></p>
+<img src="https://user-images.githubusercontent.com/87380104/185793270-75d9960d-6edb-4697-a9d6-8008529f1dc1.png">
 <h4><b>2.Fetch your previous saved MCT Tool config from Google Drive->My Drive->MCT Config folder to stop wasting your time.</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>Check_Root_MyDrive</code>: Scan Root directory of My Drive for usable MCT Configuration files.</b></p>
@@ -138,7 +148,8 @@
   <p><b><code>Stable</code>: For best Stability.</b></p>
   <p><b><code>Beta</code>: For Earlier testing of newly released features in Rclone.</b></p>
   <p><b><code>Force_Setup</code>: Forcefully install Rclone by excluding all other dependencies and download them separately. Useful if any dependency (except Rclone) having temporary setup problem.</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/178687624-f2446553-fb87-44e6-a085-65aa3f9735c7.png" alt="1">
+  <p><b><codeCustom_sh_file></code>:  Get custom <code>.sh</code> file from external source (URL or File Path) and execute it to install additional dependecies or requirements with or without normal setup.</b></p>
+<img src="https://user-images.githubusercontent.com/87380104/185793366-af3f9ef5-ef74-422e-953c-7b246f162368.png">
 <h4><b>3.To Create/Edit/Delete/View config file/remote just run the code as shown in the Image. You can also save your Rclone config file for using it in future without doing same thing repeatedly.</b></h4>
   <h5><b>Rclone config Saving options:</b></h5>
   <p><b><code>Upload_Config_File</code>: Upload your already made Rclone config file to use it.</b></p>
@@ -210,8 +221,11 @@
 <p><b><code>Custom_Import_Path</code>: Scan a custom path (or directory) give by user for usable MCT Configuration files.</p>
 <p><b><code>Custom_Export_Path</code>: Export all your MCT Configuration files to a gives path.</b></p>
 <img src="Img/24.png">
-<h4><b>2.Once you done creating or fetching the config files! Just run the Code named <code>Connect to Cloud Accounts</code> and it will automatically detect your config file and will show you dropdown list to mount multiple remotes as shown in the image. Now select remoted and click mount to connect to those remotes between which you have to transfer your Data.</b></h4>
-<img src="Img/25.png">
+<h4><b>2.Once you done creating or fetching the config files! Just run the Code named <code>Connect to Cloud Accounts</code> and it will automatically detect your config file and will show you the available command, follow on-screen instructions to mount them</b></h4>
+<h4><b>Options:</b></h4>
+<p><b><code>Custom_Mount_Point</code>: To set Custom Mount Point.</b></p>
+<p><b><code>Custom_Cache_Dir</code>: To set Custom Cache Directory.</p>
+<img src="https://user-images.githubusercontent.com/87380104/185793654-f658a130-c9d3-4fa6-b2e3-e53535b1f99e.png">
 <h4><b>3.After mounting those remotes or Cloud Accounts, Now click on the File icon as shown in the image and then you will see two folder named <code>drives</code> open the second folder named <code>drives</code> and you will see the names of Remotes or Cloud Account which you mounted previously!</b></h4>
 <img src="Img/26.png">
 <h4><b>4.Now simply open that Folder and copy the file or folder path which needs to be copied and then right click on the file or folder and select <code>Copy Path</code> option from the list</b></h4>
@@ -293,6 +307,12 @@
   <h4><b>This feature enables you to download MEGA Link with or without your MEGA Account incase if you want to use your MEGA Premium account directly to any cloud.</b></h4>
   <h4><b>1.As stated above! you can use your MEGA Account if you want and this tool will save it automtically for future use. Enter MEGA Link in <code>Source</code> field and Destination in <code>Destination</code> field where you have to download the MEGA Files.</b></h4>
   <h4><b>2.If destination path is not provided then downloaded files will be moved to <code>downloades</code> folder in connected runtime (Temporary storage).<b></h4>
+    <h3><b>🗑️UUP DUMP</b></h3>
+    <h4><b>UUP Dump feature enables you to collect files mentioned in <code>uup_download_linux.sh</code> files and upload them to any cloud mentioned as <code>Destination</code>. It makes your work super easy to make <code>ISO</code> files using <code>.sh</code> file given by <a href="https://uupdump.net">UUP DUMP</a> Website or any other websites.</b></h4>
+    <h4><b>1.First download any UUP file in your device, then either upload it to Google Colab or any other Cloud.</b></h4>
+  <h4><b>2.Now copy the path of <code>uup_download_linux.sh</code> file or path of folder which contaning <code>.sh</code> file and paste it as <code>Source</code>, now mount or connect any Cloud using steps given above and copy the path and paste it as <code>Destionation</code>.</b></h4>
+    <img src="https://user-images.githubusercontent.com/87380104/179364517-b28b76bc-5ba5-4c3c-8be6-8c2835551d7a.png">
+    <h4><b>3.Once done! Run the code and let program download all files.😚</b></h4>
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
   <h4><b>This Project comes with the ability to pack or extract of Files or Folder in variety of formats with or without Password Protection while moving the data from One Cloud to another Cloud. What you need is just Source Path which needs to be packed or extracted and Destination Path where you need the final result, so let's learn how to use this feature.😆</b></h4>
   <h4><b>1.First connect the Cloud Accounts between which you need to transfer the packed or extracted data. Please read STEP 2 of "🪝Multi Cloud Transfer" section to learn how to do that!</b></h4>
@@ -303,7 +323,7 @@
     <p><b><code>Destination_Path</code>: The Path on which you want the final output.</b></p>
   <img src="https://user-images.githubusercontent.com/87380104/170721413-12da8839-42df-470b-9392-4d7a4aca8b16.png" alt="34">
   <h4><b>4.Then Run the code to start your given task. Finally Enjoy!😎</b></h4>
-  <p><b>⛔NOTE: Enter Source Path and Destination Path between "" to avoid any Path Error.</b></p>
+    <p><b>⛔NOTE: Enter Source Path and Destination Path between "" to avoid any Path Error.</b></p>
 <h2><b>⚠️Error Messages</b></h2>
 <h4><b>MCT Tool is a multi purpose tool, it comes with various useful features, but you may tackle some Error codes which are their to prevent wrong configurations or progress loss! Below are common Error codes which you may tackle or tackled in Tool:</b></h4>
 <h4><b>1.Google Drive Error: Google Account is not connected!</b></h4>
@@ -367,11 +387,12 @@
 <h4><b> 2.This code do not share even a single piece of data to any third party source and not create any log of that!🔑</b></h4>
 <h4><b> 3.Do not trust any other copy of this Code.📚</b></h4>
 <h2><b>⛑Contact Us!</b></h2>
-<h4><b>Join our Update Channel at Telegram:<a href="https://telegram.me/TheCaduceusUPDATE"> Join Now!</a></b></h4>
+<h4><b>Join our Update Channel at Telegram:<a href="https://t.me/TheCaduceusOffical"> Join Now!</a></b></h4>
 <h4><b>Directly Contact the Developer using Telegram <a href="https://telegram.me/HelpAutomatted_Bot">@HelpAutomatted_Bot</a></b></h4>
 <h2><b>❤️Credits & Thanks</b></h2>
 <p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
 <p><b><a href="https://rclone.org/">Rclone</a>: The Backbone of this Powerful Project.</b></p>
+
   
       <footer class="site-footer">
         
