@@ -53,6 +53,8 @@
 <h4><b>3.Bug fixes:<b></h4>
   <p><b>  ->Addressed error where users are unable to mount Rclone remotes due to Mount Widget is not visible because of new changes by Google Colab team.</b></p>
   <p><b>  ->Mitigated errors in Zipping/Unzipping section where Custom Name and Paths causing problems or confusion, typo errors in switches are now completely fixed.</b></p>
+  <p><b>  ->Resolved, drives not getting unmounted.</b></p>
+  <p><b>  ->Upload Rclone config file option showing double upload options</b></p>
   <p><b>  ->Detectors to automatically fix error while connecting Google Account.</b></p>
   <p><b>  ->Fix errors with backends shutting down while in use</b></p>
   <p><b>  ->Fix hang on quit with <code>--dropbox-batch-mode</code> off</b></p>
