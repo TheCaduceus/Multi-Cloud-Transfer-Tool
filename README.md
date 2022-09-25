@@ -33,6 +33,7 @@
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#-safe-or-not-">🔐 Safe or Not? ✅</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#contact-us">⛑Contact Us!</a></b></p>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
+<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#other-projects">🍵Other Projects</a></b></p>
 <h2><b>🆕What's New!🆕</b></h2>
 <h4><b>1.Package Upgrades:<b></h4>
   <p><b>  ->Rclone upgraded to <code>v1.59.1</code></b></p>
@@ -349,3 +350,7 @@
 <h2><b>❤️Credits & Thanks</b></h2>
 <p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
 <p><b><a href="https://rclone.org/">Rclone</a>: The Backbone of this Powerful Project.</b></p>
+
+## 🍵Other Projects
+- **<a href="https://drgraph.cf/">Dr.Graph</a>: Online Anonymous Text / Pasting platform without limits.**
+- **<a href="https://drfilestreambot.t.me/">Dr.FileStreamBot</a>: Get Download / Stream links for Telegram files and use as host.**
