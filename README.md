@@ -1,5 +1,6 @@
 <h1 align="center">Multi Cloud Transfer 🔥</h1>
 <p><b>MCT Tool is a Google Colab based jupyter notebook uses Rclone and other popular engines (aria, yt-dlp, libtorrent, 7zip etc) to manipulate & tranfer data ( even simultaneously) between two or more cloud services without utilizing one's bandwidth or system resources. While performing given task, MCT Tool saves important user session or configuration files in safe (encrypted) format to make things easier next time when user perform same task requirng same configuration or session files.</b></p>
+<div align="center"><a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></div>
 <h2><b>📑 INDEX</b></h2>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
 <p><b><a href="#whats-new">🆕What's New!</a></b></p>
@@ -50,9 +51,9 @@
 <h2><b>🔌Before you Start</b></h2>
 <h4><b>1.First connect Google Drive to enable MCT Tool to save/retrive its configuration files.</b></h4>
 <h4><b>Options:</b></h4>
-<p><b><code>FORCE_REMOUNT</code>: Forcefully remount your Google Account's Google Drive.</b></p>
-<p><b><code>CUSTOM_MOUNT_POINT</code>: Choose different path for mounting your Google Account's Google Drive.</p>
-<p><b><code>DEBUG_MODE</code>: To Enable or Disable DEBUG Mode.</b></p>
+<p><b><code>FORCE_REMOUNT</code>: Forcefully remount Google Drive.</b></p>
+<p><b><code>CUSTOM_MOUNT_POINT</code>: Choose different path for mounting Google Drive.</p>
+<p><b><code>DEBUG_MODE</code>: To enable or disable DEBUG Mode.</b></p>
 <img src="https://user-images.githubusercontent.com/87380104/185793270-75d9960d-6edb-4697-a9d6-8008529f1dc1.png">
 <h4><b>2.Fetch your previous saved MCT Tool configuration files from Google Drive->My Drive->MCT Config folder to stop wasting your time by creating them again and again@</b></h4>
 <h4><b>Options:</b></h4>
@@ -80,7 +81,7 @@
 <p><b>MCT Tool uses Rclone, one of the best command line tool for data transfer & data management tool for performing any task involving transfer of data, that means it can transfer any amount of data from/to any cloud service without utilizing one's own bandwidth or system resources.</b></p>
 <h4><b>1.Before we procced! I recommend to either create/upload or fetch your Rclone Config file to Google Colab using below methods! Creating and fetching will automatically place the file in correct location!</b></h4>
 <h4><b>Options:</b></h4>
-<p><b><code>Custom_Import_Path</code>: Scan a custom path (or directory) give by user for usable MCT Configuration files.</p>
+<p><b><code>Custom_Import_Path</code>: Scan a custom path (or directory) given by user for usable MCT Configuration files.</p>
 <p><b><code>Custom_Export_Path</code>: Export all your MCT Configuration files to a gives path.</b></p>
 <img src="Img/24.png">
 <h4><b>2.Once you done creating or fetching the config files! just run the cell named <code>Connect to Cloud Accounts</code> and it will automatically detect your config file and will show you the available remotes, follow on-screen instructions to mount them</b></h4>
@@ -95,7 +96,7 @@
   <h4><b>5.After that! paste the path of file or folder in <code>Source</code> field and again go to <code>File Icon->drives</code> and open the cloud Account into which you want to transfer files/folders and copy its path! You can either directly copy the path of cloud Account or of any folder inside it and paste the path in <code>Destination</code> field.</b></h4>
 <img src="Img/28.png">
 <h4><b>6.Choose the transfer mode trough which you want to transfer your data! refer to "<a href="#modes-of-transfer">🚅Modes of Transfer</a>" below to learn about all of them.</b></h4>
-<h4><b>9.Finally! run the code by pressing play button to start transferring.</b></h4>
+<h4><b>9.Finally! run the code by pressing play button to initiate transfer.</b></h4>
 <h2><b>🪀Using Service Accounts</b></h4>
 <h4><b>Service Accounts are just like normal Google Account and thus have same upload or download limits as Google Account which is 750GB upload and 10TB download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive transfer limits by creating them in a bulk amount.</b></h4>
   <h4><b>1.Don't have Service Accounts?<a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts" alt="Creating SA"> Create Here</a></b></h4>
@@ -114,19 +115,19 @@
   <img src="https://user-images.githubusercontent.com/87380104/169764820-a9678d13-4708-4232-9c65-2cfb682f4bec.png">
 
   <h3><b>📥Direct Download Links:</b></h3>
-  <h4><b>This function enables to download files or data from single or multiple direct download links to any cloud. It uses Aria engine to deliver best and fastest performance possible. You can also download two or more links at same time with this.</b></h4>
+  <h4><b>Function enables to download files or data from single or multiple direct download links to any cloud. It uses Aria engine to deliver best and fastest performance possible. You can also download two or more links at same time with this.</b></h4>
   <h4><b>Just put your direct download links in Source field and then enter the Destination path to where you want to download data. You can enter multiple Direct Download links in the source field by separating them using <code>,</code> between each link in the following format: </b></h4>
   <p><b><code>Link1,Link2</code></b></p>
   <img src="https://user-images.githubusercontent.com/87380104/169864446-a8c1de39-8121-4451-9d85-416452dc57fc.png">
   <h3><b>📃Download Links from txt file:</b></h3>
   <h4><b>Functions enables to download all links written in a given txt file. This function is useful when we have too many links and it will take too much time separate each link with <code>,</code>.</b></h4>
-  <h4><b>User just need to upload the txt file containing the download links to any cloud which you connected then have to provide its path in Source field and Destination path in Destination field to where you want to download the data. Best format to arrange links in txt file: </b></h4>
+  <h4><b>User just need to upload the txt file containing the download links to any cloud or in runtime provided by Google Colab then have to provide its path in Source field and Destination path in Destination field to where you want to download the data. Best format to arrange links in txt file: </b></h4>
   <p><b><code>Link1</code></b></p>
   <p><b><code>Link2</code></b></p>
   <p><b><code>Link3</code></b></p>
   <img src="https://user-images.githubusercontent.com/87380104/169865084-b2bad643-e1e8-4565-8ec7-cae651bd9e1f.png">
   <h3><b>🎥YouTube videos/playlist & other sites</b></h3>
-  <h4><b>Function gives the flexibility to download YouTube Videos or Playlist and videos from other supported sites directly to any Cloud. It uses <code>yt-dlp</code> which downloads everything is maximum quality. You can download two or more videos which are not in same playlist or even two separate playlist at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt"yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
+  <h4><b>Function gives the flexibility to download YouTube Videos or Playlist and videos from other supported sites directly to any Cloud. It uses <code>yt-dlp</code> which downloads everything is maximum quality. You can download two or more videos which are not in same playlist or even two separate playlist at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt="yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
   <h4><b>Just provide the YouTube link of video or playlist or link to videos located on other website (Non-DRM Protected) in <code>Source</code> field and Destination path in <code>Destination</code> field to where you want to download it. You can separate the link of videos or playlist by providing space between each in following format:</b></h4>
   <p><b><code>VideoLink1</code> <code>VideoLink2</code></b></p>
   <p><b><code>PlaylistLink1</code> <code>PlaylistLink2</code></b></p>
