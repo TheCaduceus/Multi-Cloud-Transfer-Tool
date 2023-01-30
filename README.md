@@ -1,5 +1,5 @@
 <h1 align="center">Multi Cloud Transfer 🔥</h1>
-<p><b>MCT Tool is a Google Colab based jupyter notebook uses Rclone and other popular engines (aria, yt-dlp, libtorrent, 7zip etc) to manipulate & tranfer data ( even simultaneously) between two or more cloud services without utilizing one's bandwidth or system resources. While performing given task, MCT Tool saves important user session or configuration files in safe (encrypted) format to make things easier next time when user perform same task requirng same configuration or session files.</b></p>
+<p><b>MCT Tool is a Google Colab based Jupyter notebook uses Rclone and other popular engines (aria, yt-dlp, libtorrent, 7zip etc) to manipulate & tranfer data (even simultaneously) between two or more cloud services without utilizing one's bandwidth or system resources. While performing given task, MCT Tool saves important user session or configuration files in safe (encrypted) format to make things easier next time when user perform same task requiring same configuration or session files.</b></p>
 <div align="center"><a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></div>
 <h2><b>📑 INDEX</b></h2>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
@@ -63,8 +63,8 @@
 <h4><b>4.Use Service Accounts with MCT Tool to avoid Google Drive's transfer limits, read "Using Service Accounts" Section to learn how to.</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>Upload_Service_Accounts</code>: Upload new Service Accounts.</b></p>
-<p><b><code>Save_Service_Accounts_MyDrive</code>: Save new/existing Service Accounts to Google Drive-> My Drive</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/172588290-03173d04-e75e-4914-9b64-e80f6a827942.png" alt="Using SA">
+<p><b><code>Save_To_MyDrive</code>: Save new/existing Service Accounts to Google Drive-> My Drive</b></p>
+<img src="https://user-images.githubusercontent.com/87380104/215531572-161939bd-48ab-425c-b7be-dd4a06071dea.png" alt="Using SA">
 <h4><b>5.Ability to delete your Files/Folder/Directory with different purge methods.</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>delete</code>: Delete the content of folder or single file.</b></p>
@@ -74,7 +74,7 @@
 <img src="Img/35.png" alt="Purge Options">
 <h4><b>6.Add-ons are additional features which are not offered by Rclone officially but created by two or more engines.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/169866802-3f5594e6-b1b1-4125-b5c7-17084694ab1d.png">
-<h4><b>7.MCT Tool supports packing & extracting files or folders in variety of formats and transfer simultaneously</b></h4>
+<h4><b>7.MCT Tool supports packing & extracting files or folders in variety of formats and transfer simultaneously.</b></h4>
 <img src="https://user-images.githubusercontent.com/87380104/215342192-23c603bb-74b1-412c-84fd-981fa9aab642.png">
 
 <h2><b>🪝Multi Cloud Transfer</b></h2>
@@ -91,7 +91,7 @@
 <img src="https://user-images.githubusercontent.com/87380104/185793654-f658a130-c9d3-4fa6-b2e3-e53535b1f99e.png">
 <h4><b>3.After mounting those remotes or cloud Accounts, now click on the file icon as shown in the image and then navigate to the folder where you mounted your remoted (default folder is <code>drives</code>) and you will see the names of remotes or cloud account which you mounted previously!</b></h4>
 <img src="Img/26.png">
-<h4><b>4.Now copy the file or folder path which needs to be copied and then right click on the file or folder and select <code>Copy Path</code> option from the list</b></h4>
+<h4><b>4.Now copy the file or folder path which needs to be copied and then right click on the file or folder and select <code>Copy Path</code> option from the list.</b></h4>
 <img src="Img/27.png">
   <h4><b>5.After that! paste the path of file or folder in <code>Source</code> field and again go to <code>File Icon->drives</code> and open the cloud Account into which you want to transfer files/folders and copy its path! You can either directly copy the path of cloud Account or of any folder inside it and paste the path in <code>Destination</code> field.</b></h4>
 <img src="Img/28.png">
@@ -104,14 +104,14 @@
   <h4><b>3.Now back to Google Colab screen and select saving options for Service Accounts to use them without uploading them again next time.</b></h4>
   <h4><b>Options:</b></h4>
   <p><b><code>Upload_Service_Accounts</code>: Upload new Service Accounts.</b></p>
-  <p><b><code>Save_To_MyDrive</code>: Save new/existing Service Accounts to My Drive->MCT Config folder</b></p>
+  <p><b><code>Save_To_MyDrive</code>: Save new/existing Service Accounts to My Drive->MCT Config folder.</b></p>
   <img src="https://user-images.githubusercontent.com/87380104/215347396-83aaeb07-dc85-4b6d-9743-f1a1ce72cd60.png">
-  <h4><b>4.After it! Click the file icon, then open <code>accounts</code> folder and right click on anyone Json file and select <code>Copy path</code>.</b></h4>
+  <h4><b>4.After it! click the file icon, then open <code>accounts</code> folder and right click on anyone Json file and select <code>Copy path</code>.</b></h4>
   <img src="Img/32.png">
   <h4><b>5.Run the <code>Create/Edit/Delete Rclone Config File</code> and paste the path in <code>service_account_file</code> during creating remote for Google Drive.</b></h4>
   <img src="Img/33.png">
   <h2><b>🪄Special Add-ons</b></h2>
-  <h4><b>Add-ons are the special functions not provided ny any single engine and are made by combining two or more engines while performing any particular task simultaneously. Each of these functions (or simply add-ons) are explained below with their steps to use.</b></h4>
+  <h4><b>Add-ons are the special functions not provided by any single engine and are made by combining two or more engines while performing any particular task simultaneously. Each of these functions (or simply add-ons) are explained below with their steps to use.</b></h4>
   <img src="https://user-images.githubusercontent.com/87380104/169764820-a9678d13-4708-4232-9c65-2cfb682f4bec.png">
 
   <h3><b>📥Direct Download Links:</b></h3>
@@ -127,7 +127,7 @@
   <p><b><code>Link3</code></b></p>
   <img src="https://user-images.githubusercontent.com/87380104/169865084-b2bad643-e1e8-4565-8ec7-cae651bd9e1f.png">
   <h3><b>🎥YouTube videos/playlist & other sites</b></h3>
-  <h4><b>Function gives the flexibility to download YouTube Videos or Playlist and videos from other supported sites directly to any Cloud. It uses <code>yt-dlp</code> which downloads everything is maximum quality. You can download two or more videos which are not in same playlist or even two separate playlist at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt="yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
+  <h4><b>Function gives the flexibility to download YouTube Videos or Playlist and videos from other supported sites directly to any cloud. It uses <code>yt-dlp</code> which downloads everything is maximum quality. You can download two or more videos which are not in same playlist or even two separate playlists at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt="yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
   <h4><b>Just provide the YouTube link of video or playlist or link to videos located on other website (Non-DRM Protected) in <code>Source</code> field and Destination path in <code>Destination</code> field to where you want to download it. You can separate the link of videos or playlist by providing space between each in following format:</b></h4>
   <p><b><code>VideoLink1</code> <code>VideoLink2</code></b></p>
   <p><b><code>PlaylistLink1</code> <code>PlaylistLink2</code></b></p>
@@ -135,7 +135,7 @@
   <img src="https://user-images.githubusercontent.com/87380104/169865516-cd07abd2-bc78-40f1-8356-75f1960db86a.png">
   <h3><b>🧲Magnet Links DL:</b></h3>
   <h4><b>Function allow anyone to download torrent using magnet link directly into any cloud with high speed. It uses LibTorrent which is a lightweight powerful BitTorrent client. User can download multiple magnet links at once, just keep the <code>Source</code> field empty.</b></h4>
-  <h4><b>Provide the Destination path in <code>Destination</code> field where all downloaded torrent files will be copied and run the code.User can provide as many magnet link as you can but only 1 magnet link per input box and hit enter! once you done adding magnet links, just type <code>Exit</code> and it will start downloading it.</b></h4>
+  <h4><b>Provide the Destination path in <code>Destination</code> field where all downloaded torrent files will be copied and run the code. User can provide as many magnet link as you can but only 1 magnet link per input box and hit enter! once you done adding magnet links, just type <code>Exit</code> and it will start downloading it.</b></h4>
   <img src="https://user-images.githubusercontent.com/87380104/169769919-fcc52d17-3b1c-4bb7-ba28-c29960d00b56.png">
   <h3><b>🗃️Torrent Files DL:</b></h3>
   <h4><b>Function gives ability to download torrent from <code>.torrent</code> files, user can provide as many torrent files as much it want. This function also uses LibTorrent to deliver fast download speed.</b></h4>
@@ -146,12 +146,12 @@
   <h4><b>1.For this, just provide the required path (file or folder) in source field and follow on-screen instruction.</b></h4>
   <h3><b>Ⓜ️MEGA Links DL:</b></h3>
   <h4><b>Function downloads MEGA Link with or without your using MEGA Account to directly any cloud.</b></h4>
-  <h4><b>1.As stated above! user can use MEGA Account and MCT tool will save its credentials in safe format automtically for future use. Enter MEGA Link in <code>Source</code> field and Destination Path in <code>Destination</code> field where MEGA link needs to be downloaded</b></h4>
-  <h4><b>2.If destination path is not provided then downloaded files will be moved to <code>downloades</code> folder in connected runtime (Temporary storage).<b></h4>
+  <h4><b>1.As stated above! user can use MEGA Account and MCT tool will save its credentials in safe format automatically for future use. Enter MEGA Link in <code>Source</code> field and Destination Path in <code>Destination</code> field where MEGA link needs to be downloaded.</b></h4>
+  <h4><b>2.If destination path is not provided then downloaded files will be moved to <code>downloads</code> folder in connected runtime (Temporary storage).<b></h4>
     <h3><b>🗑️UUP DUMP:</b></h3>
-    <h4><b>Function enables to collect files mentioned in <code>uup_download_linux.sh</code> files and upload them to any cloud mentioned as <code>Destination</code>. It makes work super easy to for users making<code>ISO</code> files using <code>.sh</code> file given by <a href="https://uupdump.net">UUP DUMP</a> or any other websites.</b></h4>
-    <h4><b>1.First download any UUP file in your device, then either upload it to Google Colab or any other Cloud.</b></h4>
-  <h4><b>2.Now copy the path of <code>uup_download_linux.sh</code> file or path of folder which contaning <code>.sh</code> file and paste it as <code>Source</code>, now mount or connect any Cloud using steps given above and copy the path and paste it as <code>Destionation</code>.</b></h4>
+    <h4><b>Function enables to collect files mentioned in <code>uup_download_linux.sh</code> files and upload them to any cloud mentioned as <code>Destination</code>. It makes work super easy for users making<code>ISO</code> files using <code>.sh</code> file given by <a href="https://uupdump.net">UUP DUMP</a> or any other websites.</b></h4>
+    <h4><b>1.First download any UUP file in your device, then either upload it to Google Colab or any other cloud.</b></h4>
+  <h4><b>2.Now copy the path of <code>uup_download_linux.sh</code> file or path of folder which contaning <code>.sh</code> file and paste it as <code>Source</code>, now mount or connect any cloud using steps given above and copy the path and paste it as <code>Destination</code>.</b></h4>
     <img src="https://user-images.githubusercontent.com/87380104/179364517-b28b76bc-5ba5-4c3c-8be6-8c2835551d7a.png">
     <h4><b>3.Once done! run the cell and let program download all files.</b></h4>
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
@@ -199,5 +199,5 @@
 <h4><b>Telegram Channel:<a href="https://t.me/TheCaduceusOfficial"> Subscribe</a></b></h4>
 <h4><b>Send personal meesage on Telegram<a href="https://telegram.me/HelpAutomatted_Bot"> here</a>.</b></h4>
 <h2><b>❤️Credits & Thanks</b></h2>
-<p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
-<p><b><a href="https://rclone.org/">Rclone</a>: The Backbone of this Powerful Project.</b></p>
+<p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this project and guide.</b></p>
+<p><b><a href="https://rclone.org/">Rclone</a>: The backbone of this powerful project.</b></p>
