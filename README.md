@@ -1,5 +1,9 @@
 <h1 align="center">Multi Cloud Transfer 🔥</h1>
-<p><b>MCT Tool is a Google Colab based Jupyter notebook uses Rclone and other popular engines (aria, yt-dlp, libtorrent, 7zip etc) to manipulate & tranfer data (even simultaneously) between two or more cloud services without utilizing one's bandwidth or system resources. While performing given task, MCT Tool saves important user session or configuration files in safe (encrypted) format to make things easier next time when user perform same task requiring same configuration or session files.</b></p>
+<p><b>👋 Hello there! Welcome to Multi Cloud Transfer Tool (MCT Tool), a Google Colab based Jupyter Notebook that uses Rclone & other popular engines like yt-dlp, aria, libtorrent and 7Zip etc to manipulate & tranfer data (even simultaneously) between two or more cloud services without utilizing one’s own bandwidth or system resources. Sounds awesome, right? 😎
+
+But wait, there’s more! MCT Tool also saves important user session or configuration files in safe (encrypted) format to make things easier next time when user perform same task requiring same configuration or session files. No need to remember those pesky passwords or settings ever again! 🙌
+
+MCT Tool is powered by Rclone, one of the best command line tool for data transfer & data management3. It can transfer any amount of data from/to any cloud service without breaking a sweat 💦. It’s like having your own personal cloud assistant that does all the work for you while you sit back and relax ☕.</b></p>
 <div align="center"><a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></div>
 <h2><b>📑 INDEX</b></h2>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
@@ -17,9 +21,9 @@
 <p><b><a href="#upload-files-to-anonymous-platforms">->📤Upload Files/Folder to Anonymous Platforms</a></b></p>
 <p><b><a href="#%E2%93%9C%EF%B8%8Fmega-links-dl">->Ⓜ️MEGA Link DL</a></b></p>
 <p><b><a href="#%EF%B8%8Fuup-dump">->🗑️UUP DUMP</a></b></p>
-<p><b><a href="#pack--extract-filesfolder">📦Pack & Extract Files/Folder</a></b></p>
+<p><b><a href="#packing--extracting-filesfolder">📦Pack & Extract Files/Folder</a></b></p>
+<p><b><a href="#gofile-integration">📂GoFile Integration</a></b></p>
 <p><b><a href="#modes-of-transfer">🚅Modes of Transfer</a></b></p>
-<p><b><a href="#-safe-or-not-">🔐Safe or not?</a></b></p>
 <p><b><a href="#need-help">⛑Need help!</a></b></p>
 <p><b><a href="#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
 <h2><b>🆕What's New!</b></h2>
@@ -55,7 +59,7 @@
 <p><b><code>CUSTOM_MOUNT_POINT</code>: Choose different path for mounting Google Drive.</p>
 <p><b><code>DEBUG_MODE</code>: To enable or disable DEBUG Mode.</b></p>
 <img src="https://user-images.githubusercontent.com/87380104/185793270-75d9960d-6edb-4697-a9d6-8008529f1dc1.png">
-<h4><b>2.Fetch your previous saved MCT Tool configuration files from Google Drive->My Drive->MCT Config folder to stop wasting your time by creating them again and again@</b></h4>
+<h4><b>2.Fetch your previous saved MCT Tool configuration files from Google Drive->My Drive->MCT Config folder to stop wasting your time by creating them again and again!</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>Custom_Import_Path</code>: Scan a custom path (or directory) give by user for usable MCT Configuration files.</p>
 <p><b><code>Custom_Export_Path</code>: Export all your MCT Configuration files to a gives path.</b></p>
@@ -163,7 +167,20 @@
     <p><b><code>Source_Path</code>: The Path of Data which needs to be processed.</b></p>
     <p><b><code>Destination_Path</code>: The Path on which you want the final output.</b></p>
   <h4><b>4.Then run cell to start your given task.</b></h4>
+<h2><b>📂GoFile Integration</b></h2>
+<h4><b>GoFile is a free file sharing & unlimited storage platform, MCT Tool provides special integration through which users can upload files/folders to GoFile from any cloud service with recursive upload support. MCT Tool supports both, anonymous upload or upload on specific account in specific folder using user's API Token provided by GoFile, additionally, MCT Tool saves API Tokens provided by user in encrypted format to make things easier next time.</b></h4>
+<img src="https://user-images.githubusercontent.com/87380104/220166047-aed21cae-4aa7-4fb6-8103-9081659d50ac.png">
 
+<b>Methods:</b><br>
+`Manage Tokens` - Save/Remove your GoFile tokens.<br>
+`Upload Files` - Upload files or folder.<br>
+`Server Details` - Show GoFile's server information.<br>
+<b>Fields:</b><br>
+`SOURCE` - File or Folder path to upload.<br>
+`DESTIONATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile.<br>
+<b>Options:</b><br>
+`RECURSIVE` - Upload folder data recursively.<br>
+`RAW` - Show API Response as raw.
 <h2><b>🚅Modes of Transfer</b></h2>
 <h4><b>As this project use Rclone as a base! and Rclone support multiple options to help you move or clean your Data, in this Project those options are known as Modes. Here is the list of the Modes that this Project supports:</b></h4>
     <h4><b><code>Copy</code>: Copy files from source to dest, skipping identical files.</b></h4>
@@ -192,9 +209,6 @@
     <h4><b><code>Purge</code>: Will delete whole Directory and leaving nothing behind.</b></h4>
     <h4><b><code>rmdir</code>: Completely Delete the given path.</b></h4>
     <h4><b><code>rmdirs</code>: Remove any empty directories under the path.</b></h4>
-<h2><b>🔐 Safe or Not?</b></h2>
-<h4><b>1.MCT Tool saves all important credentials like MEGA Credetials in encrypted format as json file in private MCT-Config folder (MyDrive) and hence follow common security standards.</b></h4>
-<h4><b>2.Program automatically moderates & block all unknown files provided during additional input field & hence never touch them to prevent any unknown behaviour.</b></h4>
 <h2><b>⛑Need help!</b></h2>
 <h4><b>Telegram Channel:<a href="https://t.me/TheCaduceusOfficial"> Subscribe</a></b></h4>
 <h4><b>Send personal meesage on Telegram<a href="https://telegram.me/HelpAutomatted_Bot"> here</a>.</b></h4>
