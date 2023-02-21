@@ -3,7 +3,7 @@
 
 But wait, there’s more! MCT Tool also saves important user session or configuration files in safe (encrypted) format to make things easier next time when user perform same task requiring same configuration or session files. No need to remember those pesky passwords or settings ever again! 🙌
 
-MCT Tool is powered by Rclone, one of the best command line tool for data transfer & data management3. It can transfer any amount of data from/to any cloud service without breaking a sweat 💦. It’s like having your own personal cloud assistant that does all the work for you while you sit back and relax ☕.</b></p>
+MCT Tool is powered by Rclone, one of the best command line tool for data transfer & data management. It can transfer any amount of data from/to any cloud service without breaking a sweat 💦. It’s like having your own personal cloud assistant that does all the work for you while you sit back and relax ☕.</b></p>
 <div align="center"><a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></div>
 <h2><b>📑 INDEX</b></h2>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
@@ -177,7 +177,7 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 `Server Details` - Show GoFile's server information.<br>
 <b>Fields:</b><br>
 `SOURCE` - File or Folder path to upload.<br>
-`DESTIONATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile.<br>
+`DESTINATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile.<br>
 <b>Options:</b><br>
 `RECURSIVE` - Upload folder data recursively.<br>
 `RAW` - Show API Response as raw.
