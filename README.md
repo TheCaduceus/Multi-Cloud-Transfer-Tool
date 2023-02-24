@@ -7,7 +7,6 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 <div align="center"><a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></div>
 <h2><b>📑 INDEX</b></h2>
 <p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool#multi-cloud-transfer-advanced-">⚡MCT Tool</a></b></p>
-<p><b><a href="#whats-new">🆕What's New!</a></b></p>
 <p><b><a href="#-notice">⛔NOTICE</a></b></p>
 <p><b><a href="#before-you-start">🔌Before you Start</a></b></p>
 <p><b><a href="#multi-cloud-transfer">♻️Multi Cloud Transfer</a></b></p>
@@ -26,27 +25,6 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 <p><b><a href="#modes-of-transfer">🚅Modes of Transfer</a></b></p>
 <p><b><a href="#need-help">⛑Need help!</a></b></p>
 <p><b><a href="#%EF%B8%8Fcredits--thanks">❤️Credits & Thanks</a></b></p>
-<h2><b>🆕What's New!</b></h2>
-<h4><b>1.Package Upgrades:<b></h4>
-  <p><b>  ->Rclone upgraded to <code>v1.61.1</code></b></p>
-  <p><b>  ->yt-dlp upgraded to <code>v2023.01.16</code></b></p>
-  <p><b>  ->LibTorrent upgraded to <code>v2.0.8</code></b></p>
-  <p><b>  ->NoteBook upgraded to <code>v5.0.2</code></p></b>
-  <p><b>  ->Installer upgraded to <code>v5.0.1</code></b></p>
-<h4><b>2.New changes:<b></h4>
-  <p><b>  ->Bulk links download without .txt file.</b></p>
-  <p><b>  ->'Upload to Anonfiles' feature renamed to 'Upload to Anonymous platforms' and supports 12 new platforms.</b></p>
-  <p><b>  ->Upload folder support with link harvest feature on 12 Anonymous file sharing platform.</b></p>
-  <p><b>  ->MEGA Credentials will now be saved in json format instead of txt file and in encrypted format instead of plan text.</b></p>
-  <p><b>  ->Seperate direct link generators are removed.</b></p>
-  <p><b>  ->New check to block any unknown file to be executed received from any input field provided by the Tool.</b></p>
-  <p><b>  ->MCT Tool is 7x faster & smaller then ever!</b></p>
-<h4><b>3.Bug fixes:<b></h4>
-  <p><b>  ->Slow code execution problem caused by recent changes made by Google Colab team in <code>google.colab</code> library or at colab's backend.</b></p>
-  <p><b>  ->Let string be string don't interpret, basically MCT Tool was sometime producing unknown errors/outputs caused due to some special signs that a given particular path may or may not contain.</p></b>
-  <p><b>  ->Typos in paths (drive or root) of Rclone file causing error in uploading/saving it.</p></b>
-
-<p><b><a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/releases">Show Update History</a></b></p>
 <h2><b>⛔ NOTICE</b></h2>
 <h4><b>1.Never use MCT Tool for processing any illegal content. (Read Google Colab's policy)</b></h4>
 <h4><b>2.Only execute .sh files from trusted authors and never blindly else can cause serious problems.</b></h4>
