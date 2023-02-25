@@ -155,7 +155,7 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 `Server Details` - Show GoFile's server information.<br>
 <b>Fields:</b><br>
 `SOURCE` - File or Folder path to upload.<br>
-`DESTINATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile.<br>
+`DESTINATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile. If not provided, files or folder will be automatically uploaded to root folder.<br>
 <b>Options:</b><br>
 `RECURSIVE` - Upload folder data recursively.<br>
 `RAW` - Show API Response as raw.
