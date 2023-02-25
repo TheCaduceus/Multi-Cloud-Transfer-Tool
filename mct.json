@@ -1,0 +1,29 @@
+{
+  "version": "v5.0.2",
+  "setup_file": "https://drgraph.cf/raw/7k48dRf8",
+  "apis": {
+    "encrypt_api": "https://cryptography.thecaduceus.eu.org",
+    "anon_file_share": {
+      "AnonFiles": "https://api.anonfiles.com/upload",
+      "FileChan": "https://api.filechan.org/upload",
+      "MyFile": "https://api.myfile.is/upload",
+      "BayFiles": "https://api.bayfiles.com/upload",
+      "LetsUpload": "https://api.letsupload.cc/upload",
+      "ShareOnline": "https://api.share-online.is/upload",
+      "MegaUpload": "https://api.megaupload.nz/upload",
+      "VShare": "https://api.vshare.is/upload",
+      "HotFiles": "https://api.hotfile.io/upload",
+      "RapidShare": "https://api.rapidshare.nu/upload",
+      "UpVid": "https://api.upvid.cc/upload",
+      "LoLAbits": "https://api.lolabits.se/upload",
+      "OpenLoad": "https://api.openload.cc/upload"
+    },
+    "GoFile": {
+      "config_version": "2.0",
+      "server_url": "{server_id}.gofile.io",
+      "uploadFile": "https://{server_id}.gofile.io/uploadFile",
+      "getAccountDetails": "https://api.gofile.io/getAccountDetails?token={token}",
+      "getServer": "https://api.gofile.io/getServer"
+    }
+  }
+}
