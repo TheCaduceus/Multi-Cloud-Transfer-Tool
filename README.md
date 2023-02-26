@@ -15,8 +15,7 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 <p><b><a href="#direct-download-links">->📥Direct Download Links</a></b></p>
 <p><b><a href="#download-links-from-txt-file">->📃Download Links from txt file</a></b></p>
 <p><b><a href="#youtube-videosplaylist--other-sites">->🎥YouTube videos/playlist & other sites</a></b></p>
-<p><b><a href="#magnet-links-dl">->🧲Magnet Links DL</a></b></p>
-<p><b><a href="#%EF%B8%8Ftorrent-files-dl">->🗃️Torrent Files DL</a></b></p>
+<p><b><a href="#%EF%B8%8Ftorrent-dl-specific-files-support">->🗃️Torrent DL: (Specific files support)</a></b></p>
 <p><b><a href="#upload-files-to-anonymous-platforms">->📤Upload Files/Folder to Anonymous Platforms</a></b></p>
 <p><b><a href="#%E2%93%9C%EF%B8%8Fmega-links-dl">->Ⓜ️MEGA Link DL</a></b></p>
 <p><b><a href="#%EF%B8%8Fuup-dump">->🗑️UUP DUMP</a></b></p>
@@ -36,28 +35,28 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 <p><b><code>FORCE_REMOUNT</code>: Forcefully remount Google Drive.</b></p>
 <p><b><code>CUSTOM_MOUNT_POINT</code>: Choose different path for mounting Google Drive.</p>
 <p><b><code>DEBUG_MODE</code>: To enable or disable DEBUG Mode.</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/185793270-75d9960d-6edb-4697-a9d6-8008529f1dc1.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/1.png" alt="1">
 <h4><b>2.Fetch your previous saved MCT Tool configuration files from Google Drive->My Drive->MCT Config folder to stop wasting your time by creating them again and again!</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>Custom_Import_Path</code>: Scan a custom path (or directory) give by user for usable MCT Configuration files.</p>
 <p><b><code>Custom_Export_Path</code>: Export all your MCT Configuration files to a gives path.</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/215341558-a385ffd6-4a57-4062-8144-7434161bfb8a.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/2.png" alt="2">
 <h4><b>4.Use Service Accounts with MCT Tool to avoid Google Drive's transfer limits, read "Using Service Accounts" Section to learn how to.</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>Upload_Service_Accounts</code>: Upload new Service Accounts.</b></p>
 <p><b><code>Save_To_MyDrive</code>: Save new/existing Service Accounts to Google Drive-> My Drive</b></p>
-<img src="https://user-images.githubusercontent.com/87380104/215531572-161939bd-48ab-425c-b7be-dd4a06071dea.png" alt="Using SA">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/3.png" alt="3">
 <h4><b>5.Ability to delete your Files/Folder/Directory with different purge methods.</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>delete</code>: Delete the content of folder or single file.</b></p>
 <p><b><code>purge</code>: Delete whole directory and leaving nothing behind.</b></p>
 <p><b><code>rmdir</code>: Completely delete the given path.</b></p>
 <p><b><code>rmdirs</code>: Remove any empty directories under the path.</b></p>
-<img src="Img/35.png" alt="Purge Options">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/4.png" alt="4">
 <h4><b>6.Add-ons are additional features which are not offered by Rclone officially but created by two or more engines.</b></h4>
-<img src="https://user-images.githubusercontent.com/87380104/169866802-3f5594e6-b1b1-4125-b5c7-17084694ab1d.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/5.png" alt="5">
 <h4><b>7.MCT Tool supports packing & extracting files or folders in variety of formats and transfer simultaneously.</b></h4>
-<img src="https://user-images.githubusercontent.com/87380104/215342192-23c603bb-74b1-412c-84fd-981fa9aab642.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/6.png" alt="6">
 
 <h2><b>🪝Multi Cloud Transfer</b></h2>
 <p><b>MCT Tool uses Rclone, one of the best command line tool for data transfer & data management tool for performing any task involving transfer of data, that means it can transfer any amount of data from/to any cloud service without utilizing one's own bandwidth or system resources.</b></p>
@@ -65,20 +64,19 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 <h4><b>Options:</b></h4>
 <p><b><code>Custom_Import_Path</code>: Scan a custom path (or directory) given by user for usable MCT Configuration files.</p>
 <p><b><code>Custom_Export_Path</code>: Export all your MCT Configuration files to a gives path.</b></p>
-<img src="Img/24.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/7.png" alt="7">
 <h4><b>2.Once you done creating or fetching the config files! just run the cell named <code>Connect to Cloud Accounts</code> and it will automatically detect your config file and will show you the available remotes, follow on-screen instructions to mount them</b></h4>
 <h4><b>Options:</b></h4>
 <p><b><code>Custom_Mount_Point</code>: To set Custom Mount Point.</b></p>
 <p><b><code>Custom_Cache_Dir</code>: To set Custom Cache Directory.</p>
-<img src="https://user-images.githubusercontent.com/87380104/185793654-f658a130-c9d3-4fa6-b2e3-e53535b1f99e.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/8.png" alt="8">
 <h4><b>3.After mounting those remotes or cloud Accounts, now click on the file icon as shown in the image and then navigate to the folder where you mounted your remoted (default folder is <code>drives</code>) and you will see the names of remotes or cloud account which you mounted previously!</b></h4>
-<img src="Img/26.png">
 <h4><b>4.Now copy the file or folder path which needs to be copied and then right click on the file or folder and select <code>Copy Path</code> option from the list.</b></h4>
-<img src="Img/27.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/9.png" alt="9">
   <h4><b>5.After that! paste the path of file or folder in <code>Source</code> field and again go to <code>File Icon->drives</code> and open the cloud Account into which you want to transfer files/folders and copy its path! You can either directly copy the path of cloud Account or of any folder inside it and paste the path in <code>Destination</code> field.</b></h4>
-<img src="Img/28.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/10.png" alt="10">
 <h4><b>6.Choose the transfer mode trough which you want to transfer your data! refer to "<a href="#modes-of-transfer">🚅Modes of Transfer</a>" below to learn about all of them.</b></h4>
-<h4><b>9.Finally! run the code by pressing play button to initiate transfer.</b></h4>
+<h4><b>7.Finally! run the code by pressing play button to initiate transfer.</b></h4>
 <h2><b>🪀Using Service Accounts</b></h4>
 <h4><b>Service Accounts are just like normal Google Account and thus have same upload or download limits as Google Account which is 750GB upload and 10TB download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive transfer limits by creating them in a bulk amount.</b></h4>
   <h4><b>1.Don't have Service Accounts?<a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts" alt="Creating SA"> Create Here</a></b></h4>
@@ -87,42 +85,39 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
   <h4><b>Options:</b></h4>
   <p><b><code>Upload_Service_Accounts</code>: Upload new Service Accounts.</b></p>
   <p><b><code>Save_To_MyDrive</code>: Save new/existing Service Accounts to My Drive->MCT Config folder.</b></p>
-  <img src="https://user-images.githubusercontent.com/87380104/215347396-83aaeb07-dc85-4b6d-9743-f1a1ce72cd60.png">
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/11.png" alt="11">
   <h4><b>4.After it! click the file icon, then open <code>accounts</code> folder and right click on anyone Json file and select <code>Copy path</code>.</b></h4>
-  <img src="Img/32.png">
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/12.png" alt="12">
   <h4><b>5.Run the <code>Create/Edit/Delete Rclone Config File</code> and paste the path in <code>service_account_file</code> during creating remote for Google Drive.</b></h4>
-  <img src="Img/33.png">
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/13.png" alt="13">
   <h2><b>🪄Special Add-ons</b></h2>
   <h4><b>Add-ons are the special functions not provided by any single engine and are made by combining two or more engines while performing any particular task simultaneously. Each of these functions (or simply add-ons) are explained below with their steps to use.</b></h4>
-  <img src="https://user-images.githubusercontent.com/87380104/169764820-a9678d13-4708-4232-9c65-2cfb682f4bec.png">
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/5.png" alt="5">
 
   <h3><b>📥Direct Download Links:</b></h3>
   <h4><b>Function enables to download files or data from single or multiple direct download links to any cloud. It uses Aria engine to deliver best and fastest performance possible. You can also download two or more links at same time with this.</b></h4>
   <h4><b>Just put your direct download links in Source field and then enter the Destination path to where you want to download data. You can enter multiple Direct Download links in the source field by separating them using <code>,</code> between each link in the following format: </b></h4>
   <p><b><code>Link1,Link2</code></b></p>
-  <img src="https://user-images.githubusercontent.com/87380104/169864446-a8c1de39-8121-4451-9d85-416452dc57fc.png">
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/14.png" alt="14">
   <h3><b>📃Download Links from txt file:</b></h3>
   <h4><b>Functions enables to download all links written in a given txt file. This function is useful when we have too many links and it will take too much time separate each link with <code>,</code>.</b></h4>
   <h4><b>User just need to upload the txt file containing the download links to any cloud or in runtime provided by Google Colab then have to provide its path in Source field and Destination path in Destination field to where you want to download the data. Best format to arrange links in txt file: </b></h4>
   <p><b><code>Link1</code></b></p>
   <p><b><code>Link2</code></b></p>
   <p><b><code>Link3</code></b></p>
-  <img src="https://user-images.githubusercontent.com/87380104/169865084-b2bad643-e1e8-4565-8ec7-cae651bd9e1f.png">
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/15.png" alt="15">
   <h3><b>🎥YouTube videos/playlist & other sites</b></h3>
   <h4><b>Function gives the flexibility to download YouTube Videos or Playlist and videos from other supported sites directly to any cloud. It uses <code>yt-dlp</code> which downloads everything is maximum quality. You can download two or more videos which are not in same playlist or even two separate playlists at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt="yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
   <h4><b>Just provide the YouTube link of video or playlist or link to videos located on other website (Non-DRM Protected) in <code>Source</code> field and Destination path in <code>Destination</code> field to where you want to download it. You can separate the link of videos or playlist by providing space between each in following format:</b></h4>
   <p><b><code>VideoLink1</code> <code>VideoLink2</code></b></p>
   <p><b><code>PlaylistLink1</code> <code>PlaylistLink2</code></b></p>
   <p><b><code>VideoLink1</code> <code>PlaylistLink1</code></b></p>
-  <img src="https://user-images.githubusercontent.com/87380104/169865516-cd07abd2-bc78-40f1-8356-75f1960db86a.png">
-  <h3><b>🧲Magnet Links DL:</b></h3>
-  <h4><b>Function allow anyone to download torrent using magnet link directly into any cloud with high speed. It uses LibTorrent which is a lightweight powerful BitTorrent client. User can download multiple magnet links at once, just keep the <code>Source</code> field empty.</b></h4>
-  <h4><b>Provide the Destination path in <code>Destination</code> field where all downloaded torrent files will be copied and run the code. User can provide as many magnet link as you can but only 1 magnet link per input box and hit enter! once you done adding magnet links, just type <code>Exit</code> and it will start downloading it.</b></h4>
-  <img src="https://user-images.githubusercontent.com/87380104/169769919-fcc52d17-3b1c-4bb7-ba28-c29960d00b56.png">
-  <h3><b>🗃️Torrent Files DL:</b></h3>
-  <h4><b>Function gives ability to download torrent from <code>.torrent</code> files, user can provide as many torrent files as much it want. This function also uses LibTorrent to deliver fast download speed.</b></h4>
-  <h4><b> have to provide <code>Destination</code> path to where all downloaded torrent data will be moved and torrent file through <code>Choose file</code> option. Once you provided torrent file you want to download then click <code>Cancel Upload</code> then it will start downloading torrent for you.</b></h4>
-  <img src="https://user-images.githubusercontent.com/87380104/169771367-677c9dad-fcfe-41f9-b77c-476e77c23f69.png">
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/16.png" alt="16">
+  <h3><b>🗃️Torrent DL: (Specific files support)</b></h3>
+  <h4><b>Function gives ability to download torrents from <code>.torrent</code> files or magnet links. This function uses LibTorrent to deliver fast download speed as much possible.</b></h4>
+  <h4><b>User can download whole torrent content or individual files by specifying their list numbers seperated with a space. Additionally, provide <code>Destination</code> to overwrite the download location.</b></h4>
+  <h4><b>LibTorrent have some limitations while downloading individual files, so it may partially download unspecified file or user may need to stop execution manually after reaching 100% of download progress.</b></h4>
+  <img src="https://cdn.thecaduceus.eu.org/MCT/img/17.png" alt="17">
   <h3><b>📤Upload Files to Anonymous Platforms</b></h3>
     <h4><b>Function allow one to upload files or folder to 12 supported anonymous file sharing platforms and harvest all generated links in <code>.txt</code> file, officially none of these platform support 'folder upload' & 'link harvest' feature which sometimes makes thing defficult like when we need to share multiple files but MCT Tool uses 'for loop' after detecting a given path as 'folder' to continously upload files availabe in given folder and provides option to export all generated links in <code>.txt</code> file to make things more easier.</b></h4>
   <h4><b>1.For this, just provide the required path (file or folder) in source field and follow on-screen instruction.</b></h4>
@@ -134,7 +129,7 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
     <h4><b>Function enables to collect files mentioned in <code>uup_download_linux.sh</code> files and upload them to any cloud mentioned as <code>Destination</code>. It makes work super easy for users making<code>ISO</code> files using <code>.sh</code> file given by <a href="https://uupdump.net">UUP DUMP</a> or any other websites.</b></h4>
     <h4><b>1.First download any UUP file in your device, then either upload it to Google Colab or any other cloud.</b></h4>
   <h4><b>2.Now copy the path of <code>uup_download_linux.sh</code> file or path of folder which contaning <code>.sh</code> file and paste it as <code>Source</code>, now mount or connect any cloud using steps given above and copy the path and paste it as <code>Destination</code>.</b></h4>
-    <img src="https://user-images.githubusercontent.com/87380104/179364517-b28b76bc-5ba5-4c3c-8be6-8c2835551d7a.png">
+    <img src="https://cdn.thecaduceus.eu.org/MCT/img/18.png" alt="18">
     <h4><b>3.Once done! run the cell and let program download all files.</b></h4>
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
   <h4><b>MCT Tool comes with the ability to pack or extract any files or folder in variety of formats with or without Password Protection while moving the data from one cloud to another cloud. What you need is just Source Path which needs to be packed or extracted and destination path where you need the final result, so let's learn how to use this function.</b></h4>
@@ -147,7 +142,7 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
   <h4><b>4.Then run cell to start your given task.</b></h4>
 <h2><b>📂GoFile Integration</b></h2>
 <h4><b>GoFile is a free file sharing & unlimited storage platform, MCT Tool provides special integration through which users can upload files/folders to GoFile from any cloud service with recursive upload support. MCT Tool supports both, anonymous upload or upload on specific account in specific folder using user's API Token provided by GoFile, additionally, MCT Tool saves API Tokens provided by user in encrypted format to make things easier next time.</b></h4>
-<img src="https://user-images.githubusercontent.com/87380104/220166047-aed21cae-4aa7-4fb6-8103-9081659d50ac.png">
+<img src="https://cdn.thecaduceus.eu.org/MCT/img/19.png" alt="19">
 
 <b>Methods:</b><br>
 `Manage Tokens` - Save/Remove your GoFile tokens.<br>
