@@ -80,7 +80,7 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
 <h4><b>6.Choose the method trough which you want to transfer your data, refer to "<a href="#modes-of-transfer">🚅Modes of Transfer</a>" below to learn about all of them.</b></h4>
 <h4><b>7.Finally, run the code by pressing play button to initiate transfer.</b></h4>
 <h2><b>🪀Using Service Accounts</b></h4>
-<h4><b>Service accounts are just like normal Google Account and thus have same upload or download limits as Google Account which is 750GB upload and 10TB download per 24hrs. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive transfer limits by creating them in a bulk amount.</b></h4>
+<h4><b>Service accounts are just like normal Google account and thus have same upload or download limits as Google account which is 750GB upload and 10TB download per 24hrs. They are used to act on behalf of a Google account and hence we can use them to prevent hitting Google Drive transfer limits by creating them in a bulk amount.</b></h4>
   <h4><b>1.Don't have service accounts?<a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts" alt="Creating SA"> create here</a></b></h4>
   <h4><b>2.After creating, make the zip of <code>accounts</code> folder which have 100 or more json files and keep its name as <code>accounts.zip</code>.</b></h4>
   <h4><b>3.Now comeback to Colab screen and select saving options for service accounts to use them without uploading zip file again next time.</b></h4>
@@ -103,7 +103,7 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
   <img src="https://cdn.thecaduceus.eu.org/MCT/img/14.png" alt="14">
   <h3><b>📃Download links from txt file:</b></h3>
   <h4><b>Function enables to download all links written in a given txt file. This function is useful when we have too many links and it will take too much time separate each link with <code>,</code>.</b></h4>
-  <h4><b>User just need to upload the txt file containing the download links to any cloud or in runtime provided by Google Colab then have to provide its path in Source field and Destination path in Destination field to where you want to download the data. Best format to arrange links in txt file: </b></h4>
+  <h4><b>User just need to upload the txt file containing the download links to any cloud or in runtime provided by Colab then have to provide its path in source field and Destination path in destination field to where you want to download the data. Best format to arrange links in txt file: </b></h4>
   <p><b><code>Link1</code></b></p>
   <p><b><code>Link2</code></b></p>
   <p><b><code>Link3</code></b></p>
@@ -127,19 +127,21 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
   <h4><b>Function downloads MEGA Link with or without using user's MEGA account to directly any cloud.</b></h4>
   <h4><b>As stated above, user can use MEGA account and MCT Tool will save its credentials in safe format automatically for future use. Enter MEGA link in source field and destination path where MEGA link needs to be downloaded, by default if no destination path is mentioned then link data will be moved to downloads folder in runtime's local storage.</b></h4>
     <h3><b>🗑️UUP DUMP:</b></h3>
-    <h4><b>Function enables to collect files mentioned in <code>uup_download_linux.sh</code> files and upload them to any cloud mentioned as <code>Destination</code>. It makes work super easy for users making ISO files using .sh file given by <a href="https://uupdump.net">UUP DUMP</a> or any other website.</b></h4>
-    <h4><b>Provide the exact path of <code>uup_download_linux.sh</code> file or path of folder contaning .sh file in source field and destination path where you want all files downloaded using .sh file.</b></h4>
+    <h4><b>Function enables to collect files mentioned in <code>uup_download_linux.sh</code> files and upload them to any cloud mentioned as destination. It makes work easier for users making ISO files using .sh file given by <a href="https://uupdump.net">UUP DUMP</a> or any other website.</b></h4>
+    <h4><b>Provide the exact path of <code>uup_download_linux.sh</code> file or folder pathh contaning .sh file in source field and destination path where all files needs to be downloaded using given .sh file.</b></h4>
     <img src="https://cdn.thecaduceus.eu.org/MCT/img/18.png" alt="18">
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
-  <h4><b>MCT Tool comes with the ability to pack or extract any files or folder in variety of formats with or without Password protection while moving the data from one cloud to another cloud.</b></h4>
-  <h4><b>First mount remotes between which you need to transfer the packed or extracted data. Please read STEP 2 of "🪝Multi Cloud Transfer" section to learn how to do that.</b></h4>
-  <h4><b>2.Now Get both source path & destination path.</b></h4>
-  <h4><b>3.After it! choose the action which needs to be done with the source path and then enter following Details:</b></h4>
+  <h4><b>MCT Tool comes with the ability to pack or extract any files or folder in variety of formats with or without password protection while moving the data from one cloud to another cloud.</b></h4>
+  <h4><b>First mount remotes between which you need to transfer the packed or extracted data. Read STEP 2 of "🪝Multi Cloud Transfer" section to learn how to do that.</b></h4>
+  <h4><b>Now Get both source path & destination path.</b></h4>
+  <h4><b>After it, choose the action which needs to be done with the source path and then enter following Details:</b></h4>
     <p><b><code>Packed_File_Name</code>: Name of output zipped file. If no name is passed then MCT Tool will use original name.</b></p>
     <p><b><code>Source_Path</code>: The path of data which needs to be processed.</b></p>
     <p><b><code>Destination_Path</code>: The path on which you want the final output.</b></p>
+  <h4><b></b>User can also encrypt filename & other important file attributes by enabling <code>ENCRYPT_FILENAME</code> option, filename encryption is only supported by <code>.rar</code> and <code>.7z</code> formats and using given option with unsupported formats or conditions will only add standard password protection.</h4>
 <h2><b>📂GoFile Integration</b></h2>
-<h4><b>GoFile is a free file sharing & unlimited storage platform, MCT Tool provides special integration through which users can upload files/folders to GoFile from any cloud service with recursive upload support. MCT Tool supports both, anonymous upload or upload using specific account in specific folder using user's API Token provided by GoFile. Additionally, MCT Tool saves API Tokens (in json format) provided by user in encrypted format to make work easier next time.</b></h4>
+<h4><b>GoFile is a free file sharing & unlimited storage platform, MCT Tool provides special integration through which users can upload files/folders to GoFile from any cloud service with recursive upload support.</b></h4>
+<h4><b>MCT Tool supports both, anonymous upload or upload using specific account in specific folder using user's API Token provided by GoFile. Additionally, MCT Tool saves API Tokens (in json format) provided by user in encrypted format to make work easier next time.</b></h4>
 <img src="https://cdn.thecaduceus.eu.org/MCT/img/19.png" alt="19">
 
 <b>Methods:</b><br>
