@@ -148,6 +148,7 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
 `Manage Tokens` - Save/Remove your GoFile tokens.<br>
 `Upload Files` - Upload files or folder.<br>
 `Server Details` - Show GoFile's server information.<br>
+`Account Details` - Request GoFile for user's account details & make it human readable, also generates login URL.<br>
 <b>Fields:</b><br>
 `SOURCE` - File or Folder path to upload.<br>
 `DESTINATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile. If not provided, files or folder will be automatically uploaded to root folder.<br>
