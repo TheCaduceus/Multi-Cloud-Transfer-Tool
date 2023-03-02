@@ -118,6 +118,7 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
   <h3><b>🗃️Torrent DL: (Specific files support)</b></h3>
   <h4><b>Function gives ability to download torrents from <code>.torrent</code> files or magnet links. This function uses LibTorrent to deliver fast download speed as much possible.</b></h4>
   <h4><b>User can download whole torrent content or individual files by specifying their list numbers seperated with a space. Additionally, provide destination to overwrite the download location, by default all downloads goes in local runtime directory <code>/content/</code>.</b></h4>
+  <h4><b>MCT Tool also accepts range, what if user need to select all files ranging from 5 to 50? mentioning each of file indices manually? nope this is enough to make anyone sick, user will simply define that particular range (<code>x-y</code> where x < y) using <code>-</code> (dash) like in this case it is <code>5-50</code>, this will tell MCT Tool to automatically detect rest of in-between indices.</b</h4>
   <h4><b>LibTorrent have some limitations while downloading individual files, so it may partially download unspecified files or user may need to stop execution manually after reaching 100% of download progress.</b></h4>
   <img src="https://cdn.thecaduceus.eu.org/MCT/img/17.png" alt="17">
   <h3><b>📤Upload Files to Anonymous Platforms</b></h3>
