@@ -98,18 +98,18 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
 
   <h3><b>📥Direct Download Links:</b></h3>
   <h4><b>Function enables to download files or data from single or multiple direct download links to any cloud. It uses Aria engine to deliver best and fastest performance possible. You can also download two or more links at same time with this.</b></h4>
-  <h4><b>Just put your direct download links in source field and then enter the destination path to where you want to download data. You can enter multiple Direct Download links in the source field by separating them using <code>,</code> between each link in the following format: </b></h4>
+  <h4><b>Just put your direct download links in source field and then enter the destination path to where you want to download data. You can enter multiple direct download links in the source field by separating them using <code>,</code> between each link in the following format: </b></h4>
   <p><b><code>Link1,Link2</code></b></p>
   <img src="https://cdn.thecaduceus.eu.org/MCT/img/14.png" alt="14">
   <h3><b>📃Download links from txt file:</b></h3>
   <h4><b>Function enables to download all links written in a given txt file. This function is useful when we have too many links and it will take too much time separate each link with <code>,</code>.</b></h4>
-  <h4><b>User just need to upload the txt file containing the download links to any cloud or in runtime provided by Colab then have to provide its path in source field and Destination path in destination field to where you want to download the data. Best format to arrange links in txt file: </b></h4>
+  <h4><b>User just need to upload the txt file containing the download links to any cloud or in runtime provided by Colab then have to provide its path in source field and destination path in destination field to where you want to download the data. Best format to arrange links in txt file: </b></h4>
   <p><b><code>Link1</code></b></p>
   <p><b><code>Link2</code></b></p>
   <p><b><code>Link3</code></b></p>
   <img src="https://cdn.thecaduceus.eu.org/MCT/img/15.png" alt="15">
   <h3><b>🎥YouTube videos/playlist & other sites</b></h3>
-  <h4><b>Function gives the flexibility to download YouTube videos or playlist and videos from other supported sites directly to any cloud or in local runtime storages. It uses <code>yt-dlp</code> which downloads everything is maximum quality be default, you can overwrite by passing flags. You can download two or more videos which are not in same playlist or even two separate playlists at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt="yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
+  <h4><b>Function gives the flexibility to download YouTube videos or playlist and videos from other supported sites directly to any cloud or in local runtime storages. It uses yt-dlp which downloads everything in maximum quality by default, you can overwrite by passing flags. User can download two or more videos which are not in same playlist or even two separate playlists at once. Refer to <a href="https://github.com/yt-dlp/yt-dlp" alt="yt-dlp">yt-dlp documentation</a> for more information.</b></h4>
   <h4><b>Just provide the YouTube link of video or playlist or link to videos located on other website (Non-DRM Protected) in <code>Source</code> field and Destination path in <code>Destination</code> field to where you want to download it. You can separate the link of videos or playlist by providing space between each in following format:</b></h4>
   <p><b><code>VideoLink1</code> <code>VideoLink2</code></b></p>
   <p><b><code>PlaylistLink1</code> <code>PlaylistLink2</code></b></p>
@@ -118,7 +118,7 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
   <h3><b>🗃️Torrent DL: (Specific files support)</b></h3>
   <h4><b>Function gives ability to download torrents from <code>.torrent</code> files or magnet links. This function uses LibTorrent to deliver fast download speed as much possible.</b></h4>
   <h4><b>User can download whole torrent content or individual files by specifying their list numbers seperated with a space. Additionally, provide destination to overwrite the download location, by default all downloads goes in local runtime directory <code>/content/</code>.</b></h4>
-  <h4><b>MCT Tool also accepts range, what if user need to select all files ranging from 5 to 50? mentioning each of file indices manually? nope this is enough to make anyone sick, user will simply define that particular range (<code>x-y</code> where x < y) using <code>-</code> (dash) like in this case it is <code>5-50</code>, this will tell MCT Tool to automatically detect rest of in-between indices.</b</h4>
+  <h4><b>MCT Tool also accepts range, what if user need to select all files ranging from 5 to 50? mentioning each of file indices manually? nope this is enough to make anyone sick, user will simply define that particular range (<code>x-y</code> where x < y) using <code>-</code> (dash) like in this case it is <code>5-50</code>, this will tell MCT Tool to automatically detect rest of in-between indices.</b></h4>
   <h4><b>LibTorrent have some limitations while downloading individual files, so it may partially download unspecified files or user may need to stop execution manually after reaching 100% of download progress.</b></h4>
   <img src="https://cdn.thecaduceus.eu.org/MCT/img/17.png" alt="17">
   <h3><b>📤Upload Files to Anonymous Platforms</b></h3>
@@ -143,16 +143,17 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
 <h2><b>📂GoFile Integration</b></h2>
 <h4><b>GoFile is a free file sharing & unlimited storage platform, MCT Tool provides special integration through which users can upload files/folders to GoFile from any cloud service with recursive upload support.</b></h4>
 <h4><b>MCT Tool supports both, anonymous upload or upload using specific account in specific folder using user's API Token provided by GoFile. Additionally, MCT Tool saves API Tokens (in json format) provided by user in encrypted format to make work easier next time.</b></h4>
+<h4><b>By default, GoFile creates a random new folder (with random name) to receive the given file if no parent folder id is mentioned which creates mess if large amount of files are uploaded at once, MCT Tool automatically pass root folder id as parent folder id to keep user's account clean.</b></h4>
 <img src="https://cdn.thecaduceus.eu.org/MCT/img/19.png" alt="19">
 
 <b>Methods:</b><br>
 `Manage Tokens` - Save/Remove your GoFile tokens.<br>
 `Upload Files` - Upload files or folder.<br>
 `Server Details` - Show GoFile's server information.<br>
-`Account Details` - Request GoFile for user's account details & make it human readable, also generates login URL.<br>
+`Account Details` - Request GoFile for user's account details & make it human readable, also generates login URL.<br><br>
 <b>Fields:</b><br>
 `SOURCE` - File or Folder path to upload.<br>
-`DESTINATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile. If not provided, files or folder will be automatically uploaded to root folder.<br>
+`DESTINATION` - Parent Folder ID in which data needs to be uploaded, provided by GoFile. If not provided, files or folder will be automatically uploaded to root folder.<br><br>
 <b>Options:</b><br>
 `RECURSIVE` - Upload folder data recursively.<br>
 `RAW` - Show API Response as raw.
