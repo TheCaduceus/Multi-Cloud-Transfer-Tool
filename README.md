@@ -1,7 +1,7 @@
 <h1 align="center">MCT Tool 🔥</h1>
 <p><b>👋 Hello there! Welcome to Multi Cloud Transfer Tool (MCT Tool), a Google Colab based Jupyter Notebook that uses Rclone & other popular engines like yt-dlp, aria, libtorrent and 7Zip etc to manipulate & tranfer data (even simultaneously) between two or more cloud services without utilizing one’s own bandwidth or system resources. Sounds awesome, right? 😎
 
-But wait, there’s more! MCT Tool also saves important user session or configuration files in safe (encrypted) format to make things easier next time when user perform same task requiring same configuration or session files. No need to remember those pesky passwords or settings ever again! 🙌
+But wait, there’s more! MCT Tool also saves important user session or configuration files in safe (encrypted) format to make work easier next time when user perform same task requiring same configuration or session files. No need to remember those pesky passwords or settings ever again! 🙌
 
 MCT Tool is powered by Rclone, one of the best command line tool for data transfer & data management. It can transfer any amount of data from/to any cloud service without breaking a sweat 💦. It’s like having your own personal cloud assistant that does all the work for you while you sit back and relax ☕.
 
@@ -30,6 +30,7 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
 <h4><b>1.Never use MCT Tool for processing any illegal content (<a href="https://research.google.com/colaboratory/faq.html">Read official FAQ</a>). Since Colab provides flexibility to connect own runtime or server, developers can add features which may or may not be allowed by Colab on runtimes provided by them.</b></h4>
 <h4><b>2.Only execute .sh files from trusted authors and never blindly else can cause serious problems like leakage of credentials or API Tokens. Always prefer using official notebook and features provided by original developers.</b></h4>
 <h4><b>3.Damage caused due to any type of unofficial edits or forks should not be reported to official contributors. Any error like temporary runtime errors from Colab's side should be reported to Colab team instead of notebook developers, while any report of errors in notebook's code is welcome.</b></h4>
+<h4><b>4.Prefer commonly used browsers (MS EDGE & Chrome) to access Colab and verify your browser have javascript & pop-ups enabled else you are mostly likely going to tackle an error. Some browsers (specially MS EDGE & Brave) provides additional specific content & trackers blocker, which can affect the overall working so make sure you disable it for Colab. Extensions are also capable of changing your browser behaviour and can cause same errors.</b></h4>
 <!--- Step Area Begin --->
 <h2><b>🔌Before you start</b></h2>
 <h4><b>1.First connect Google Drive to enable MCT Tool to save/retrieve its configuration files.</b></h4>
@@ -122,14 +123,16 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
   <h4><b>LibTorrent have some limitations while downloading individual files, so it may partially download unspecified files or user may need to stop execution manually after reaching 100% of download progress.</b></h4>
   <img src="https://cdn.thecaduceus.eu.org/MCT/img/17.png" alt="17">
   <h3><b>📤Upload Files to Anonymous Platforms</b></h3>
-    <h4><b>Function allow one to upload files or folder to supported anonymous file sharing platforms and harvest all generated links in <code>.txt</code> file, officially none of these platform support "folder upload" & "link harvest" feature which sometimes makes uploading multiple files defficult like but MCT Tool uses "for loop" after detecting a given path as 'folder' to continously upload files availabe in given folder and provides option to export all generated links in <code>.txt</code> file to make things more easier.</b></h4>
+    <h4><b>Function allow one to upload files or folder to supported anonymous file sharing platforms and harvest all generated links in <code>.txt</code> file, MCT Tool provides additional features like "recursive upload" to upload data recursively from a given folder & "harvest links" to export all generated links in txt file with filename.
+    <br><br>Checkout <a href="https://cdn.thecaduceus.eu.org/MCT/json/mct.json" alt="MCT-Json">MCT Json</a> for all supported anonymous platform list, feel free to create issue if you have any other similar platform (having API & same json key mapping) which can be added. Even though MCT Tool provides additonal features, it still compiles with TOS of these platforms and in no way bypass any kind of rate-limit and API limits applies accordingly.
+    </b></h4>
   <h4><b>For this, user just need to provide the required path (file or folder) in source field and follow on-screen instruction.</b></h4>
   <h3><b>Ⓜ️MEGA Links DL:</b></h3>
   <h4><b>Function downloads MEGA Link with or without using user's MEGA account to directly any cloud.</b></h4>
   <h4><b>As stated above, user can use MEGA account and MCT Tool will save its credentials in safe format automatically for future use. Enter MEGA link in source field and destination path where MEGA link needs to be downloaded, by default if no destination path is mentioned then link data will be moved to downloads folder in runtime's local storage.</b></h4>
     <h3><b>🗑️UUP DUMP:</b></h3>
     <h4><b>Function enables to collect files mentioned in <code>uup_download_linux.sh</code> files and upload them to any cloud mentioned as destination. It makes work easier for users making ISO files using .sh file given by <a href="https://uupdump.net">UUP DUMP</a> or any other website.</b></h4>
-    <h4><b>Provide the exact path of <code>uup_download_linux.sh</code> file or folder pathh contaning .sh file in source field and destination path where all files needs to be downloaded using given .sh file.</b></h4>
+    <h4><b>Provide the exact path of <code>uup_download_linux.sh</code> file or folder path contaning .sh file in source field and destination path where all files needs to be downloaded using given .sh file.</b></h4>
     <img src="https://cdn.thecaduceus.eu.org/MCT/img/18.png" alt="18">
   <h2><b>📦Packing & Extracting Files/Folder</b></h2>
   <h4><b>MCT Tool comes with the ability to pack or extract any files or folder in variety of formats with or without password protection while moving the data from one cloud to another cloud.</b></h4>
@@ -142,7 +145,7 @@ We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delive
   <h4><b></b>User can also encrypt filename & other important file attributes by enabling <code>ENCRYPT_FILENAME</code> option, filename encryption is only supported by <code>.rar</code> and <code>.7z</code> formats and using given option with unsupported formats or conditions will only add standard password protection.</h4>
 <h2><b>📂GoFile Integration</b></h2>
 <h4><b>GoFile is a free file sharing & unlimited storage platform, MCT Tool provides special integration through which users can upload files/folders to GoFile from any cloud service with recursive upload support.</b></h4>
-<h4><b>MCT Tool supports both, anonymous upload or upload using specific account in specific folder using user's API Token provided by GoFile. Additionally, MCT Tool saves API Tokens (in json format) provided by user in encrypted format to make work easier next time.</b></h4>
+<h4><b>MCT Tool supports both, anonymous upload or upload using specific account in specific folder using user's API Token provided by GoFile. Additionally, MCT Tool saves API Tokens (in json format) provided by user in encrypted form to make work easier next time.</b></h4>
 <h4><b>By default, GoFile creates a random new folder (with random name) to receive the given file if no parent folder id is mentioned which creates mess if large amount of files are uploaded at once, MCT Tool automatically pass root folder id as parent folder id to keep user's account clean.</b></h4>
 <img src="https://cdn.thecaduceus.eu.org/MCT/img/19.png" alt="19">
 
