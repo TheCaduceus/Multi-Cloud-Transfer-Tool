@@ -7,6 +7,10 @@ MCT Tool is powered by Rclone, one of the best command line tool for data transf
 
 We use our own <a href="https://cdn.thecaduceus.eu.org" alt="CDN">Content Delivery Network</a> to remotely control general code behaviour and <a href="https://cryptography.thecaduceus.eu.org" alt="Cryptography-API">Cryptography-API</a> to encrypt user provided strings.</b></p>
 <div align="center"><a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></div>
+
+
+> **Warning**: MCT Tool currently have no active maintainer at the moment, so development of new features is currently stale. For this reason, MCT Tool only receiving bug fixes and minor changes to prevent depreciation. Backend & APIs used by MCT Tool will work as usual.
+
 <h2><b>📑 INDEX</b></h2>
 <p><b><a href="#mct-tool-">⚡MCT Tool</a></b></p>
 <p><b><a href="#-notice">⛔NOTICE</a></b></p>
