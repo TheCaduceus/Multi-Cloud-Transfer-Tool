@@ -1,0 +1,463 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Multi-Cloud-Transfer-Tool | The most advanced yet simple Jupyter Notebook to transfer/manage your data from/to any cloud remotely based on Rclone and other engines.⚡</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Multi-Cloud-Transfer-Tool" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The most advanced yet simple Jupyter Notebook to transfer/manage your data from/to any cloud remotely based on Rclone and other engines.⚡" />
+<meta property="og:description" content="The most advanced yet simple Jupyter Notebook to transfer/manage your data from/to any cloud remotely based on Rclone and other engines.⚡" />
+<link rel="canonical" href="https://thecaduceus.eu.org/Multi-Cloud-Transfer-Tool/" />
+<meta property="og:url" content="http://thecaduceus.eu.org/Multi-Cloud-Transfer-Tool/" />
+<meta property="og:site_name" content="Multi-Cloud-Transfer-Tool" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Multi-Cloud-Transfer-Tool" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"The most advanced yet simple Jupyter Notebook to transfer/manage your data from/to any cloud remotely based on Rclone and other engines.⚡","headline":"Multi-Cloud-Transfer-Tool","name":"Multi-Cloud-Transfer-Tool","url":"https://thecaduceus.eu.org/Multi-Cloud-Transfer-Tool/"}</script>
+
+    <link rel="stylesheet" href="/Multi-Cloud-Transfer-Tool/assets/css/style.css?v=373ee1afbe31677166bce60e8e168d8d8327a6c3">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="https://cdn.thecaduceus.eu.org/icons/Official_Logo.jpg">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="https://cdn.thecaduceus.eu.org/icons/Official_Logo.jpg">
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <div align="center">
+
+<h1>☁ MCT Tool</h1>
+
+</div>
+
+<p><strong>👋 Hello there! Welcome to Multi Cloud Transfer Tool (MCT Tool), a Google Colab based Jupyter Notebook that uses Rclone &amp; other popular engines like yt-dlp, Aria2, Libtorrent and 7-Zip etc to manipulate &amp; tranfer data (even simultaneously) between two or more cloud services without utilizing one’s own bandwidth or system resources. Sounds awesome, right? 😎</strong></p>
+
+<p><strong>But wait, there’s more! MCT Tool also saves important user session or configuration files in safe (encrypted) format to make work easier next time when user perform same task requiring same configuration or session files. No need to remember those pesky passwords or settings ever again! 🙌</strong></p>
+
+<p><strong>MCT Tool is powered by Rclone, one of the best command line tool for data transfer &amp; data management. It can transfer any amount of data from/to any cloud service without breaking a sweat 💦. It’s like having your own personal cloud assistant that does all the work for you while you sit back and relax ☕.</strong></p>
+
+<div align="center"><a href="https://colab.research.google.com/github/TheCaduceus/Multi-Cloud-Transfer-Tool/blob/main/Rclone.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></div>
+
+<h2 id="-index"><strong>📑 INDEX</strong></h2>
+
+<ul>
+  <li><a href="#notice"><strong>⛔ NOTICE</strong></a></li>
+  <li><a href="#htu"><strong>🕹️ How to use?</strong></a>
+    <ul>
+      <li><a href="#htu-1">Connect Google Account</a></li>
+      <li><a href="#htu-2">Setup &amp; Configuration</a></li>
+      <li><a href="#htu-3">Retrive Config Files</a></li>
+      <li><a href="#htu-4">Using Service Accounts</a></li>
+      <li><a href="#htu-5">Rclone Operations</a>
+        <ul>
+          <li><a href="#htu-5.1">Manage Rclone Config File</a></li>
+          <li><a href="#htu-5.2">Mount Remotes</a></li>
+          <li><a href="#htu-5.3">Rclone Transfer</a></li>
+          <li><a href="#htu-5.4">Purge Methods</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#addons"><strong>🖇 Add-ons</strong></a>
+    <ul>
+      <li><a href="#addons-1">Direct Download Links</a></li>
+      <li><a href="#addons-2">Download Links from .txt File</a></li>
+      <li><a href="#addons-3">YouTube Videos/Playlist DL</a></li>
+      <li><a href="#addons-4">Torrent DL</a></li>
+      <li><a href="#addons-5">Torrent DL (File selection)</a></li>
+      <li><a href="#addons-6">Upload File to Anonymous Platforms</a></li>
+      <li><a href="#addons-7">MEGA Link DL</a></li>
+      <li><a href="#addons-8">UUP Dump</a></li>
+    </ul>
+  </li>
+  <li><a href="#pe"><strong>📦 Packaging &amp; Extraction</strong></a></li>
+  <li><a href="#ti"><strong>📤 Telegram Integration</strong></a></li>
+  <li><a href="#gi"><strong>📂 GoFile Integration</strong></a></li>
+  <li><a href="#help"><strong>⛑️ Need help!</strong></a></li>
+  <li><a href="#credits"><strong>❤️ Credits &amp; Thanks</strong></a></li>
+</ul>
+
+<p><a name="notice"></a></p>
+
+<h2 id="-notice">⛔ NOTICE</h2>
+
+<ul>
+  <li>
+    <p>Never use MCT Tool for processing any illegal content (<a href="https://research.google.com/colaboratory/faq.html">Read official FAQ</a>). Since Colab provides flexibility to connect own runtime or server, developers can add features which may or may not be allowed by Colab on runtimes provided by them.</p>
+  </li>
+  <li>
+    <p>Mount points are intended only to use with Add-ons and other sections except for performing large data transfer between two or more cloud using Rclone. User should use Rclone commands with remote names to transfer larger data otherwise using mount points will consume more resources causing Colab session to crash.</p>
+  </li>
+  <li>
+    <p>Don’t execute any unknown .sh file unless you know what it going to do. MCT Tool provides option to execute custom .sh file in setup section if user decides to add more features requiring more dependencies or different environment.</p>
+  </li>
+  <li>
+    <p>Prefer commonly used browsers (MS Edge &amp; Chrome) to access Colab and verify your browser have javascript &amp; pop-ups enabled else you are mostly likely going to tackle an error. Some browsers (specially MS Edge &amp; Brave) provides additional specific content &amp; trackers blocker, which can affect the overall working so make sure you disable it for Colab. Extensions are also capable of changing your browser behaviour and can cause same errors.</p>
+  </li>
+</ul>
+
+<p><a name="htu"></a></p>
+
+<h2 id="️-how-to-use">🕹️ How to use?</h2>
+
+<p><a name="htu-1"></a></p>
+
+<p><strong>1.Connect Google Account:</strong></p>
+
+<p>Connecting Google Account enables MCT Tool sync configurations files between Colab’s runtime and your Google Drive automatically. This makes it possible to start from where you left off instead of starting
+from scratch.</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/1.png" alt="1" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">FORCE_REMOUNT</code>: Forcefully remount Google Drive. Useful if you tackle an error with mounted location.</li>
+  <li><code class="language-plaintext highlighter-rouge">CUSTOM_MOUNT_POINT</code>: Choose different path for mounting Google Drive. Even if you change the path, MCT Tool will automatically detect the change and hence keeping sync of configuration files unaffected.</li>
+  <li><code class="language-plaintext highlighter-rouge">DEBUG_MODE</code>: Enable or disable DEBUG mode. Useful to report any mount error to Google Colab team.</li>
+</ul>
+
+<p><a name="htu-2"></a></p>
+
+<p><strong>2.Setup &amp; Configuration:</strong></p>
+
+<p>Running setup automatically installs all dependencies required by MCT Tool and configure them as required without requiring any user effort.</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/2.png" alt="2" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">INSTALL_RCLONE_FLAVOR</code>: Switch Rclone’s release branch from stable to beta or vice-versa.</li>
+  <li><code class="language-plaintext highlighter-rouge">FORCE_SETUP</code>: Forcefully install Rclone by excluding all other dependencies and download them separately. Useful if any dependency (except Rclone) having temporary setup issue.</li>
+  <li><code class="language-plaintext highlighter-rouge">CUSTOM_SH_FILE</code>: Get custom .sh file from external source (URL or File Path) and execute it to install additional dependecies or requirements with or without normal setup.</li>
+</ul>
+
+<p><a name="htu-3"></a></p>
+
+<p><strong>3.Retrive Config Files:</strong></p>
+
+<p>You can restore your previous session’s configuration files from Google Drive or somwhere else. MCT Tool automatically places the file in its correct location.</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/3.png" alt="3" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">CUSTOM_IMPORT_PATH</code>: Scan a custom path (or directory) give by user for usable MCT Configuration files.</li>
+  <li><code class="language-plaintext highlighter-rouge">CUSTOM_EXPORT_PATH</code>: Export all your MCT configuration files to a gives path.</li>
+</ul>
+
+<p><a name="htu-4"></a></p>
+
+<p><strong>4.Using Service Accounts:</strong></p>
+
+<p>You have plenty of data to transfer from/to Google Drive? MCT Tool supports service accounts to bypass transfer limits by Google Drive. To use them, you first need to pack all of your service accounts’s <code class="language-plaintext highlighter-rouge">.json</code> files into a zip named <code class="language-plaintext highlighter-rouge">accounts.zip</code> and upload it to Google Colab. MCT Tool will automatically extract it for you in a folder making it easy to create remotes for your service accounts in Rclone.</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/4.png" alt="4" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">UPLOAD_SERVICE_ACCOUNTS</code>: Upload service accounts and automatically unzip them.</li>
+  <li><code class="language-plaintext highlighter-rouge">SAVE_TO_MYDRIVE</code>: Save new/existing Service Accounts to Google Drive.</li>
+</ul>
+
+<p><a name="htu-5"></a></p>
+
+<p><strong>5.Rclone Operations:</strong></p>
+
+<p>Rclone operations section let newbie users to perform basic tasks through GUI like creating/editing/mounting your Rclone remotes. <em>It is always recommended to use commands over GUI as GUI is more resource intensive.</em></p>
+
+<p><a name="htu-5.1"></a></p>
+
+<p>i.Create/Edit/View/Delete your Rclone Config file:</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/5.png" alt="5" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">UPLOAD_CONFIG_FILE</code>: Upload your existing Rclone config file. It will be placed in its correct location automatically.</li>
+  <li><code class="language-plaintext highlighter-rouge">SAVE_TO_MYDRIVE</code>: To save created Rclone config file in Google Drive.</li>
+  <li><code class="language-plaintext highlighter-rouge">DOWNLOAD_CONFIG</code>: Download Rclone config file in your device.</li>
+</ul>
+
+<p><a name="htu-5.2"></a></p>
+
+<p>ii.Mount Rclone Remotes:</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/6.png" alt="6" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">CUSTOM_MOUNT_POINT</code>: Set custom mount point.</li>
+  <li><code class="language-plaintext highlighter-rouge">CUSTOM_CACHE_DIR</code>: Set custom cache directory.</li>
+</ul>
+
+<p><a name="htu-5.3"></a></p>
+
+<p>iii.Using Various Rclone Modes, Flags &amp; Other Options:</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/7.png" alt="7" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">DRY_RUN</code>: Check given source &amp; destination.</li>
+  <li><code class="language-plaintext highlighter-rouge">EMAIL_NOTIFICATION</code>: Receive email notification once task is completed.</li>
+  <li><code class="language-plaintext highlighter-rouge">LOGS</code>: Send log file with email notification.</li>
+</ul>
+
+<p><a name="htu-5.4"></a></p>
+
+<p>iv.Data Purging Methods:</p>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/8.png" alt="8" /></p>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">delete</code>: Delete the content of folder or single file.</li>
+  <li><code class="language-plaintext highlighter-rouge">purge</code>: Delete whole directory.</li>
+  <li><code class="language-plaintext highlighter-rouge">rmdir</code>: Completely delete the given path.</li>
+  <li><code class="language-plaintext highlighter-rouge">rmdirs</code>: Remove empty directories under the path.</li>
+</ul>
+
+<p><a name="addons"></a></p>
+
+<h2 id="-add-ons">🖇 Add-ons:</h2>
+
+<p>Add-ons are additional features offered by MCT Tool and are compatible with all cloud services that Rclone supports or local runtime paths.</p>
+
+<p><a name="addons-1"></a></p>
+
+<p><strong>1.Direct Download Links:</strong></p>
+
+<p>Download files from direct download links using Aria2.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: One or more multiple download links (separated with “,”) to be downloaded.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Download location of file(s), can be mount point or local runtime path.</li>
+  <li><code class="language-plaintext highlighter-rouge">args</code>: Additional flags, check <a href="https://aria2.github.io/">aria2 documentation</a>.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/9.png" alt="9" /></p>
+
+<p><a name="addons-2"></a></p>
+
+<p><strong>2.Download Links from .txt File:</strong></p>
+
+<p>Get download links from given .txt file and download them using Aria2.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: Path of .txt file.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Download location of file(s), can be mount point or local runtime path.</li>
+  <li><code class="language-plaintext highlighter-rouge">args</code>: Additional flags, check <a href="https://aria2.github.io/">aria2 documentation</a>.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/10.png" alt="10" /></p>
+
+<p><a name="addons-3"></a></p>
+
+<p><strong>3.YouTube Videos/Playlist DL:</strong></p>
+
+<p>Download videos or playlists from YouTube or any other website that restrict downloading videos.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: Video/Playlist link to be downloaded.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Download location of file(s), can be mount point or local runtime path.</li>
+  <li><code class="language-plaintext highlighter-rouge">args</code>: Additional flags, check <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp documentation</a>.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/11.png" alt="11" /></p>
+
+<p><a name="addons-4"></a></p>
+
+<p><strong>4.Torrent DL:</strong></p>
+
+<p>Download torrent using .torrent file or magnet link.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: Torrent file path or magnet link.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Download location of file(s), can be mount point or local runtime path.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/12.png" alt="12" /></p>
+
+<p><a name="addons-5"></a></p>
+
+<p><strong>5.Torrent DL (File selection):</strong></p>
+
+<p>Select and download only specific files from torrent using .torrent file or magnet link.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: Torrent file path or magnet link.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Download location of file(s), can be mount point or local runtime path.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/13.png" alt="13" /></p>
+
+<p><a name="addons-6"></a></p>
+
+<p><strong>6.Upload File to Anonymous Platforms:</strong></p>
+
+<p>Upload files/folder to anonymous file-sharing platforms (10+) with recursive upload support.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: File or folder path.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/14.png" alt="14" /></p>
+
+<p><a name="addons-7"></a></p>
+
+<p><strong>7.MEGA Link DL:</strong></p>
+
+<p>Download MEGA links with or without MEGA Account.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: MEGA Link to be downloaded.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Download location of file(s), can be mount point or local runtime path.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/15.png" alt="15" /></p>
+
+<p><a name="addons-8"></a></p>
+
+<p><strong>8.UUP Dump:</strong></p>
+
+<p>Download UUP files from Windows Update servers with ease.</p>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: Path of “uup_download_linux.sh” file or folder contaning it.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Download location of file(s), can be mount point or local runtime path.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/16.png" alt="16" /></p>
+
+<p><a name="pe"></a></p>
+
+<h2 id="-packaging--extraction">📦 Packaging &amp; Extraction:</h2>
+
+<p>Zipping or unzipping files or folder with MCT Tool is fun! and you can directly zip/unzip files or folders located in any cloud service. MCT Tool supports large varity of formats with options like password protection or filename encryption.</p>
+
+<p><strong>METHODS:</strong></p>
+<ul>
+  <li>Zip with/without password.</li>
+  <li>Extract Zip.</li>
+  <li>RaR with/without password. <em>(filename encryption)</em></li>
+  <li>Extract RaR.</li>
+  <li>7z with/without password. <em>(filename encryption)</em></li>
+  <li>Extract 7z.</li>
+  <li>Tar.</li>
+  <li>Extract Tar.</li>
+  <li>Tar.gz.</li>
+  <li>Extract Tar.gz.</li>
+  <li>Tar.bz2.</li>
+  <li>Extract Tar.bz2.</li>
+</ul>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ACTION</code>: Action to perform with the file/folder.</li>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE_PATH</code>: Path of file/folder to be zipped/unzipped, can be mount point or local runtime path.</li>
+  <li><code class="language-plaintext highlighter-rouge">OUTPUT_FILENAME</code>: Name of output file.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION_PATH</code>: Path to save output, can be mount point or local runtime path.</li>
+  <li><code class="language-plaintext highlighter-rouge">args</code>: Additional flags to be passed with command.</li>
+</ul>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ENCRYPT_FILENAME</code>: Encrypt filename after zipping the file.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/17.png" alt="17" /></p>
+
+<p><a name="ti"></a></p>
+
+<h2 id="-telegram-integration">📤 Telegram Integration:</h2>
+
+<p>Upload files/folder to Telegram with user &amp; bot profiles using <a href="https://github.com/TheCaduceus/tg-upload">tg-upload</a>. User can directly upload files/folder located in any cloud service to Telegram of <strong>any size</strong>, MCT Tool will automatically sync your session files or API profiles (in encrypted form) between Colab’s runtime and Google Drive to ensure you don’t need to login again &amp; again!</p>
+
+<p><strong>METHODS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Manage API Profiles</code> - To save new/delete existing API ID &amp; API Hash.</li>
+  <li><code class="language-plaintext highlighter-rouge">Manage Telegram Profiles</code> - To manage your session files.</li>
+  <li><code class="language-plaintext highlighter-rouge">Upload Files/Folders</code> - To upload data.</li>
+</ul>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">METHOD</code>: Task to perform with tg-upload.</li>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: Path of file/folder to be uploaded to Telegram, can be mount point or local runtime path.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Chat identity to upload files to? by default to saved messages.</li>
+  <li><code class="language-plaintext highlighter-rouge">ARGUMENTS</code>: Additional flags, check <a href="https://thecaduceus.eu.org/tg-upload">tg-upload documentation</a>.</li>
+</ul>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">RECURSIVE</code>: Upload files recursively from folder.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/18.png" alt="18" /></p>
+
+<p><a name="gi"></a></p>
+
+<h2 id="-gofile-integration">📂 GoFile Integration</h2>
+
+<p>GoFile integration let you upload files/folder from any cloud service to your GoFile account or just anonymously. As usual, MCT Tool will automatically sync your API tokens (encrypted format) between Colab’s runtime and Google Drive, so you don’t need to remember them ever again!</p>
+
+<p><strong>METHODS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Manage Tokens</code>: Save/Delete GoFile tokens.</li>
+  <li><code class="language-plaintext highlighter-rouge">Upload Files</code>: Upload files/folders.</li>
+  <li><code class="language-plaintext highlighter-rouge">Server Details</code>: Show GoFile’s server information.</li>
+  <li><code class="language-plaintext highlighter-rouge">Account Details</code>: Request GoFile for user’s account details &amp; make it human readable, also generates login URL.</li>
+</ul>
+
+<p><strong>INPUTS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">METHOD</code>: Task to perform with GoFile.</li>
+  <li><code class="language-plaintext highlighter-rouge">SOURCE</code>: Path of file/folder to be uploaded to GoFile, can be mount point or local runtime path.</li>
+  <li><code class="language-plaintext highlighter-rouge">DESTINATION</code>: Parent Folder ID in which data needs to be uploaded, provided by GoFile. If not provided, files or folder will be automatically uploaded to root folder.</li>
+</ul>
+
+<p><strong>OPTIONS:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">RECURSIVE</code>: Upload files recursively from folder.</li>
+  <li><code class="language-plaintext highlighter-rouge">RAW</code>: Show GoFile API response as raw.</li>
+</ul>
+
+<p><img src="https://cdn.thecaduceus.eu.org/MCT/img/19.png" alt="19" /></p>
+
+<p><a name="help"></a></p>
+
+<h2 id="️-need-help">⛑️ Need help!</h2>
+
+<ul>
+  <li>Create an <a href="https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool/issues">issue</a> on GitHub.</li>
+  <li><a href="https://t.me/TheCaduceusOfficial">Subscribe</a> Telegram channel.</li>
+  <li>Ask questions or doubts <a href="https://t.me/DrDiscussion">here</a>.</li>
+  <li>Send a <a href="https://t.me/TheCaduceusHere">personal message</a> to developer on Telegram.</li>
+  <li>Tag on <a href="https://twitter.com/BeingDrCaduceus">Twitter</a>.</li>
+</ul>
+
+<p><a name="credits"></a></p>
+
+<h2 id="️-credits--thanks">❤️ Credits &amp; Thanks</h2>
+
+<p><a href="https://t.me/TheCaduceusHere"><strong>Dr.Caduceus</strong></a>: Owner &amp; developer of MCT Tool.</p>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
