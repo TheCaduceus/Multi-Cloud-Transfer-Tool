@@ -64,7 +64,7 @@
 Connecting Google Account enables MCT Tool sync configurations files between Colab's runtime and your Google Drive automatically. This makes it possible to start from where you left off instead of starting
 from scratch.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/1.PNG" alt="1">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/1.PNG" alt="1">
 
 **OPTIONS:**
 * `FORCE_REMOUNT`: Forcefully remount Google Drive. Useful if you tackle an error with mounted location.
@@ -77,7 +77,7 @@ from scratch.
 
 Running setup automatically installs all dependencies required by MCT Tool and configure them as required without requiring any user effort.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/2.PNG" alt="2">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/2.PNG" alt="2">
 
 **OPTIONS:**
 * `INSTALL_RCLONE_FLAVOR`: Switch Rclone's release branch from stable to beta or vice-versa.
@@ -90,7 +90,7 @@ Running setup automatically installs all dependencies required by MCT Tool and c
 
 You can restore your previous session's configuration files from Google Drive or somwhere else. MCT Tool automatically places the file in its correct location.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/3.PNG" alt="3">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/3.PNG" alt="3">
 
 **OPTIONS:**
 * `CUSTOM_IMPORT_PATH`: Scan a custom path (or directory) give by user for usable MCT Configuration files.
@@ -102,7 +102,7 @@ You can restore your previous session's configuration files from Google Drive or
 
 You have plenty of data to transfer from/to Google Drive? MCT Tool supports service accounts to bypass transfer limits by Google Drive. To use them, you first need to pack all of your service accounts's `.json` files into a zip named `accounts.zip` and upload it to Google Colab. MCT Tool will automatically extract it for you in a folder making it easy to create remotes for your service accounts in Rclone. 
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/4.PNG" alt="4">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/4.PNG" alt="4">
 
 **OPTIONS:**
 * `UPLOAD_SERVICE_ACCOUNTS`: Upload service accounts and automatically unzip them.
@@ -118,7 +118,7 @@ Rclone operations section let newbie users to perform basic tasks through GUI li
 
 i.Create/Edit/View/Delete your Rclone Config file:
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/5.PNG" alt="5">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/5.PNG" alt="5">
 
 **OPTIONS:**
 * `UPLOAD_CONFIG_FILE`: Upload your existing Rclone config file. It will be placed in its correct location automatically.
@@ -129,7 +129,7 @@ i.Create/Edit/View/Delete your Rclone Config file:
 
 ii.Mount Rclone Remotes:
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/6.PNG" alt="6">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/6.PNG" alt="6">
 
 **OPTIONS:**
 * `CUSTOM_MOUNT_POINT`: Set custom mount point.
@@ -139,7 +139,7 @@ ii.Mount Rclone Remotes:
 
 iii.Using Various Rclone Modes, Flags & Other Options:
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/7.PNG" alt="7">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/7.PNG" alt="7">
 
 **OPTIONS:**
 * `DRY_RUN`: Check given source & destination.
@@ -150,7 +150,7 @@ iii.Using Various Rclone Modes, Flags & Other Options:
 
 iv.Data Purging Methods:
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/8.PNG" alt="8">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/8.PNG" alt="8">
 
 **OPTIONS:**
 * `delete`: Delete the content of folder or single file.
@@ -175,7 +175,7 @@ Download files from direct download links using Aria2.
 * `DESTINATION`: Download location of file(s), can be mount point or local runtime path.
 * `args`: Additional flags, check [aria2 documentation](https://aria2.github.io/).
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/9.PNG" alt="9">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/9.PNG" alt="9">
 
 <a name="addons-2"></a>
 
@@ -188,7 +188,7 @@ Get download links from given .txt file and download them using Aria2.
 * `DESTINATION`: Download location of file(s), can be mount point or local runtime path.
 * `args`: Additional flags, check [aria2 documentation](https://aria2.github.io/).
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/10.PNG" alt="10">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/10.PNG" alt="10">
 
 <a name="addons-3"></a>
 
@@ -201,7 +201,7 @@ Download videos or playlists from YouTube or any other website that restrict dow
 * `DESTINATION`: Download location of file(s), can be mount point or local runtime path.
 * `args`: Additional flags, check [yt-dlp documentation](https://github.com/yt-dlp/yt-dlp).
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/11.PNG" alt="11">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/11.PNG" alt="11">
 
 <a name="addons-4"></a>
 
@@ -213,7 +213,7 @@ Download torrent using .torrent file or magnet link.
 * `SOURCE`: Torrent file path or magnet link.
 * `DESTINATION`: Download location of file(s), can be mount point or local runtime path.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/12.PNG" alt="12">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/12.PNG" alt="12">
 
 <a name="addons-5"></a>
 
@@ -225,7 +225,7 @@ Select and download only specific files from torrent using .torrent file or magn
 * `SOURCE`: Torrent file path or magnet link.
 * `DESTINATION`: Download location of file(s), can be mount point or local runtime path.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/13.PNG" alt="13">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/13.PNG" alt="13">
 
 <a name="addons-6"></a>
 
@@ -236,7 +236,7 @@ Upload files/folder to anonymous file-sharing platforms (10+) with recursive upl
 **INPUTS:**
 * `SOURCE`: File or folder path.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/14.PNG" alt="14">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/14.PNG" alt="14">
 
 <a name="addons-7"></a>
 
@@ -248,7 +248,7 @@ Download MEGA links with or without MEGA Account.
 * `SOURCE`: MEGA Link to be downloaded.
 * `DESTINATION`: Download location of file(s), can be mount point or local runtime path.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/15.PNG" alt="15">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/15.PNG" alt="15">
 
 <a name="addons-8"></a>
 
@@ -260,7 +260,7 @@ Download UUP files from Windows Update servers with ease.
 * `SOURCE`: Path of "uup_download_linux.sh" file or folder contaning it.
 * `DESTINATION`: Download location of file(s), can be mount point or local runtime path.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/16.PNG" alt="16">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/16.PNG" alt="16">
 
 <a name="pe"></a>
 
@@ -292,7 +292,7 @@ Zipping or unzipping files or folder with MCT Tool is fun! and you can directly 
 **OPTIONS:**
 * `ENCRYPT_FILENAME`: Encrypt filename after zipping the file.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/17.PNG" alt="17">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/17.PNG" alt="17">
 
 <a name="ti"></a>
 
@@ -314,7 +314,7 @@ Upload files/folder to Telegram with user & bot profiles using [tg-upload](https
 **OPTIONS:**
 * `RECURSIVE`: Upload files recursively from folder.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/18.PNG" alt="18">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/18.PNG" alt="18">
 
 <a name="gi"></a>
 
@@ -337,7 +337,7 @@ GoFile integration let you upload files/folder from any cloud service to your Go
 * `RECURSIVE`: Upload files recursively from folder.
 * `RAW`: Show GoFile API response as raw.
 
-<img src="https://cdn.thecaduceus.eu.org/MCT/img/19.PNG" alt="19">
+<img src="https://assets.thecaduceus.eu.org/MCT/img/19.PNG" alt="19">
 
 <a name="help"></a>
 
